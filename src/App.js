@@ -1,6 +1,9 @@
+
 import './App.css';
 import {Navbar} from './components';
 import AllRoutes from './Routes/AllRoutes';
+
+
 
 function App() {
   return (
