@@ -1,11 +1,15 @@
 import React from 'react'
 
-function AllCategories() {
+function AllCategories({array,handleClick}) {
+    
   return (
     <div>
         <ul>
-            <li>Fruits</li>
-            <li>Vegetables</li>
+            {
+                array.map((el,id) => 
+                    <li onClick={() => handleClick(id)} >{el}</li>
+                )
+            }
         </ul>
     </div>
   )
