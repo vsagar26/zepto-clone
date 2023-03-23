@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import AllCategories from '../components/AllCategories'
 import ProductDetails from '../components/ProductDetails';
 import styles from '../styles/styles.module.css';
@@ -14,11 +14,23 @@ function AllProducts() {
         setData(products)
     }
 
+    const getAllData = async() => {
+        const response = await fetch(`http://localhost:3000/Fruits`)
+        const products = await response.json();
+        setData(products)
+    }
+
     const handleClick = (id) => {
         var category = array[id];
-
         getData(category)
+        
     }
+
+    useEffect(() => {
+        getAllData()
+    },[])
+
+    
 
     console.log(data)
   return (

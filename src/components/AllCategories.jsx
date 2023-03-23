@@ -7,7 +7,7 @@ function AllCategories({array,handleClick}) {
         <ul>
             {
                 array.map((el,id) => 
-                    <li onClick={() => handleClick(id)} >{el}</li>
+                    <li key={id} onClick={() => handleClick(id)} >{el}</li>
                 )
             }
         </ul>
