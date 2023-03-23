@@ -1,5 +1,5 @@
 {
-  "fruits": [
+  "Fruits": [
       { "id": 1,
           "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-450-450,pr-true,f-webp,q-80/inventory/product/b2ca1889-4554-40be-b289-a9d8c7a05f95-image_file.jpeg",
           "title": "Mango Totapuri",
@@ -211,7 +211,7 @@
           "weight":"1 piece"
       }
   ],
-  "vegetables": [
+  "Vegetables": [
       { "id": 1,
           "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-730-436,pr-true,f-webp,q-80/inventory/product/fdca4f60-6ff3-4dcf-bebf-c7d4a459e21a-29.jpeg",
           "title": "Mushroom Button",
