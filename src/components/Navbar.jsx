@@ -2,13 +2,14 @@ import React from 'react'
 import { logo } from '../assets'
 import {BsBag, BsSearch} from "react-icons/bs"
 import {BiUser} from "react-icons/bi"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
     <div className='bg-[#450072] flex flex-row h-[80px] w-[100vw] items-center justify-around md:justify-evenly'>
         <div className='flex flex-row items-center justify-evenly'>
-        <img src={logo} alt="logo" className='h-[24px] md:h-[36px] md:ml-7'/>
+        <Link to='/' ><img src={logo} alt="logo" className='h-[24px] md:h-[36px] md:ml-7'/></Link>
         <div className='h-[30px] w-[3px] bg-[#c6c6c6b8] rounded-xl ml-4'></div>
         <h2 className='text-white font-semibold text-[13px] md:text-[16px] lg:text-[20px] ml-4'>Location</h2>
         </div>
