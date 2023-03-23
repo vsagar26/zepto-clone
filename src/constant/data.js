@@ -1,3 +1,5 @@
+import {BsFacebook, BsInstagram, BsTwitter, BsLinkedin} from "react-icons/bs"
+
 export const category = [
     {
         id: 1,
@@ -108,5 +110,32 @@ export const category = [
         id: 22,
         title: "Health & Baby Care",
         link: ""
+    },
+]
+
+export const socialmedia = [
+    {
+        id: 1,
+        title: "Facebook",
+        icon: <BsFacebook/>,
+        link: "https://www.facebook.com",
+    },
+    {
+        id: 2,
+        title: "Instagram",
+        icon: <BsInstagram/>,
+        link: "https://www.instagram.com",
+    },
+    {
+        id: 3,
+        title: "Twitter",
+        icon: <BsTwitter/>,
+        link: "https://www.twitter.com",
+    },
+    {
+        id: 4,
+        title: "Linkedin",
+        icon: <BsLinkedin/>,
+        link: "https://www.linkedin.com",
     },
 ]
