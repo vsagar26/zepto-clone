@@ -1,8 +1,8 @@
 import React from "react";
 import { logo } from "../assets";
 import { category, socialmedia } from "../constant/data";
-import {AiFillApple} from "react-icons/ai"
-import {BsGooglePlay} from "react-icons/bs"
+import { AiFillApple } from "react-icons/ai";
+import { BsGooglePlay } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="h-[1px] w-[96%] bg-slate-300 mt-6"></div>
         </div>
       </div>
-      <div className="flex flex-row gap-x-32 mb-10">
+      <div className="flex flex-col md:flex-row gap-x-32 mb-10">
         <div className="mt-4 ml-12 md:ml-32">
           <img src={logo} alt="logo" />
           <div className="flex flex-row gap-4 mt-6">
@@ -39,28 +39,36 @@ const Footer = () => {
           </div>
           <p className="mt-5">&#169;KiranaKart Technologies Private Limited</p>
         </div>
-        <div className="mt-8">
-          <ul className="gap-4">
-            <li className="mb-2">Home</li>
-            <li className="mb-2">Delivery Areas</li>
-            <li className="mb-2">Careers</li>
-            <li className="mb-2">Customer Support</li>
-            <li className="mb-2">Press</li>
-          </ul>
+        <div className="flex flex-row ml-12 md:ml-0 gap-12 md:gap-x-32 mb-10 mt-6 md:mt-0">
+          <div className="mt-8">
+            <ul className="gap-4">
+              <li className="mb-2">Home</li>
+              <li className="mb-2">Delivery Areas</li>
+              <li className="mb-2">Careers</li>
+              <li className="mb-2">Customer Support</li>
+              <li className="mb-2">Press</li>
+            </ul>
+          </div>
+          <div className="mt-8">
+            <ul>
+              <li className="mb-2">Privacy Policy</li>
+              <li className="mb-2">Terms of Use</li>
+              <li className="mb-2">Responsible Disclosure Policy</li>
+            </ul>
+          </div>
         </div>
         <div className="mt-8">
-          <ul>
-            <li className="mb-2">Privacy Policy</li>
-            <li className="mb-2">Terms of Use</li>
-            <li className="mb-2">Responsible Disclosure Policy</li>
-          </ul>
-        </div>
-        <div className="mt-8">
-          <div>
+          <div className="ml-12">
             <p className="mb-2">Download App</p>
-            <div className="flex flex-col gap-4">
-            <button className="mb-2 mt-2 border-2 px-10 py-3 rounded-lg flex flex-row gap-4"><BsGooglePlay className="text-[20px]"/>Get it on Playstore</button>
-            <button className="mb-2 border-2 px-10 py-3 rounded-lg flex flex-row gap-4"><AiFillApple className="text-[24px]"/>Get it on Apple Store</button>
+            <div className="flex flex-col gap-4 w-[400px] md:w-full ">
+              <button className="mb-2 mt-2 border-2 px-0 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4">
+                <BsGooglePlay className="text-[20px]" />
+                Get it on Playstore
+              </button>
+              <button className="mb-2 border-2 px-4 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4">
+                <AiFillApple className="text-[24px]" />
+                Get it on Apple Store
+              </button>
             </div>
           </div>
         </div>
