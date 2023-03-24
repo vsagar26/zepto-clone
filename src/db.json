@@ -422,5 +422,641 @@
           "price2":"₹46",
           "weight":"200 g" 
       }
+  ],
+  "Baths":[
+    {
+        "id": 1,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/3476a258-9a32-4ebd-ae02-71ae0ea8b5f1-74871cd7-bafd-4a71-b712-62cc6dd82553.jpeg",
+          "title": "Head & Shoulders Cool Menthol Anti Dandruff Shampoo for Women & Men",
+          "price": "₹693",
+          "price2":"₹815",
+          "weight":"650 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 2,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/ebe254a4-c24d-4eec-8a50-78604897fc8b-1HwAmkbhbNTf13aDJ6WomGmCG0cPaQTLG.jpeg",
+          "title": "L'Oreal Total Repair 5 Reparing Shampoo",
+          "price": "₹632",
+          "price2":"₹1099",
+          "weight":"1 l",
+          "discount":"42%"
+    },
+    {
+        "id": 3,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-300-300,pr-true,f-webp,q-80/inventory/product/cf421d5e-b76a-49c2-833d-8b5e71a80d19-1RUqBMDWLj3ORmrfmR00tqufiaAYmbEZX.jpeg",
+          "title": "Head & Shoulders Smooth and Silky Anti Dandruff Shampoo",
+          "price": "₹693",
+          "price2":"₹815",
+          "weight":"650 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 4,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/e8d2830d-b62d-4b89-83ed-2bae71de76b4-1SSnBLGTSDS3dYI1IsYGqtUoEW6UiOjBW.jpeg",
+          "title": "Dove Daily Shine Shampoo",
+          "price": "₹666",
+          "price2":"₹740",
+          "weight":"650 ml",
+          "discount":"10%"
+    },
+    {
+        "id": 5,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/7c085e53-68c6-4915-82c0-96a20254dbd2-1jAiLpH636O0B347LImALLYl8xRdGXsv4.jpeg",
+          "title": "L'Oreal Paris Dream Lengths Conditioner",
+          "price": "₹166",
+          "price2":"₹239",
+          "weight":"180ml",
+          "discount":"30%"
+    },
+    {
+        "id": 6,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/eac7e37e-1e17-4267-8232-1f8b926c3c3c-cebd8c04-371f-4035-9a12-b613629daa54.jpeg",
+          "title": "Meera Anti Dandruff Shampoo With Small Onion and Fenugreek",
+          "price": "₹569",
+          "price2":"₹719",
+          "weight":"650 ml",
+          "discount":"20%"
+    },
+    {
+        "id": 7,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/1831b47b-9509-4cf6-9dba-d95ea2cdd86f-/tmp/20221212-062352.jpeg",
+          "title": "Park Avenue Beer Shampoo Shiny & Bouncy",
+          "price": "₹488",
+          "price2":"₹650",
+          "weight":"650 ml",
+          "discount":"24%"
+    },
+    {
+        "id": 8,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/e25b38c3-5c36-4d50-9e50-b60330125434-1jA8rRgTgSoIGHMPpkd6B28w01FpvFgtL.jpeg",
+          "title": "L'Oreal Paris Total Repair 5 Conditioner",
+          "price": "₹160",
+          "price2":"₹229",
+          "weight":"180 ml",
+          "discount":"30%"
+    },
+    {
+        "id": 9,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/4a894c02-b489-4df9-bdfe-7cf630f37a61-17wWNR6x307BJpUwGd8h4RNZwBa_coN3b.jpeg",
+          "title": "Sunsilk Lusciously Thick & Long Shampoo",
+          "price": "₹272",
+          "price2":"₹280",
+          "weight":"340 ml",
+          "discount":"2%"
+    },
+    {
+        "id": 10,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/8ac56e53-afe3-4d33-bd12-e0e9601379dc-1aZ1D-XN0HaYRpCaiA-kWolsx6ePM8JU1.jpeg",
+          "title": "L'Oreal Paris Color Protect Conditioner",
+          "price": "₹167",
+          "price2":"₹239",
+          "weight":"192.5 ml",
+          "discount":"30%"
+    },
+    {
+        "id": 11,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-500,pr-true,f-webp,q-80/inventory/product/5fd40109-75cf-4e61-8ef1-d4f302ced7d7-18S3h7KCVzk2K99fr7DTEqCI6kKRX99lx.jpeg",
+          "title": "Clinic Plus Strong & Long Health Shampoo",
+          "price": "₹194",
+          "price2":"₹199",
+          "weight":"340 ml",
+          "discount":"2%"
+    },
+    {
+        "id": 12,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/7af7f5a3-c746-4732-807a-3ea3b8051eaf-1sPFvQdOW_4hAsSZsMZhGaUXvlkYqjmOw.jpeg",
+          "title": "L'Oreal Paris Total Repair 5 Shampoo",
+          "price": "₹322",
+          "price2":"₹379",
+          "weight":"340 ml",
+          "discount":"15%"
+    },
+    {
+        "id": 13,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/9ee2bf6c-311d-4845-b0e9-44e864478295-1jxDRjERcJvDJH_a7PZPj1X-yqTD9IaAe.jpeg",
+          "title": "Biotique Ocean Kelp Anti Hair Fall Shampoo",
+          "price": "₹299",
+          "price2":"₹815",
+          "weight":"340 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 14,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/b2e47543-b7c3-4b68-ad15-24e098d01dbe-17CwQzNzhLCm_eg_dfcE5cFd6EeKepw8P.jpeg",
+          "title": "Dabur Vatika Long & Black Shampoo",
+          "price": "₹126",
+          "price2":"₹210",
+          "weight":"340 ml",
+          "discount":"40%"
+    },
+    {
+        "id": 15,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1774-3474,pr-true,f-webp,q-80/inventory/product/eda68475-daa8-475b-9059-890dcc384b3d-/tmp/20221212-071336.jpeg",
+          "title": "Nyle Naturals Damage Repair Shampoo With Goodness Of Shikakai And Hibiscus",
+          "price": "₹348",
+          "price2":"₹445",
+          "weight":"800 ml",
+          "discount":"21%"
+    },
+    {
+        "id": 16,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-300-300,pr-true,f-webp,q-80/inventory/product/15260611-7fc2-4bf7-8420-7683a74b51ef-1lPQbu0qweuyYEQT2Thhi3KN1lqcyBjBD.jpeg",
+          "title": "Mamaearth Onion Hair Fall Shampoo",
+          "price": "₹349",
+          "price2":"₹815",
+          "weight":"250 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 17,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/25c2b934-9a5e-426d-ad5d-c1ff33a8db7c-1eaF6gDukx21c7fxSm94pgzcUKX6Ey6Uc.jpeg",
+          "title": "TRESemme Hair Fall Defense Conditioner",
+          "price": "₹200",
+          "price2":"₹210",
+          "weight":"190 ml",
+          "discount":"4%"
+    },
+    {
+        "id": 18,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-800-800,pr-true,f-webp,q-80/inventory/product/f376bcee-91bc-46cb-8fc8-b2d9c49d07a5-1G5J-c3GV0GllLVW0eWMxhpUhMq4Haj6Q.jpeg",
+          "title": "Buds & Berries Rice Water & Chia Seed Nourishment Shampoo For Hair Growth & Hair Fall Control",
+          "price": "₹375",
+          "price2":"₹500",
+          "weight":"300 ml",
+          "discount":"25%"
+    },
+    {
+        "id": 19,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/98ed9598-aa41-4e6d-ba88-0d1cc173729d-1L7iqZrUwCwDAw7wNFDLTZjeEcczrOCYu.jpeg",
+          "title": "Biotique Fresh Neem Anti Dandruff Shampoo & Conditioner",
+          "price": "₹315",
+          "price2":"₹815",
+          "weight":"340 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 20,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/00e17e64-a730-4e6f-991b-c27406a6db6f-11CJftIc34k1C0JPtz01BAy6CzF-Cxgq_.jpeg",
+          "title": "Kesh King Ayurvedic Anti-Dandruff Shampoo",
+          "price": "₹240",
+          "price2":"₹299",
+          "weight":"340 ml",
+          "discount":"19%"
+    },
+    {
+        "id": 21,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/a15fec15-fb72-42ca-8ca5-d8ea7c8bbf0d-1Z5ziRUBFIcj0DjOo5DtfCPo_Swu6GTFd.jpeg",
+          "title": "Head & Shoulders Anti Dandruff Shampoo Cool Menthol",
+          "price": "₹361",
+          "price2":"₹379",
+          "weight":"340 ml",
+          "discount":"4%"
+    },
+    {
+        "id": 22,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/8fc5fe36-5631-4aa1-ad1f-550c54a030f6-1zvl_596V3dBbzC4tpTvHwdonmjfwEzK9.jpeg",
+          "title": "Dabur Vatika Anti Dandruff Shampoo",
+          "price": "₹126",
+          "price2":"₹210",
+          "weight":"340 ml",
+          "discount":"40%"
+    },
+    {
+        "id": 23,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/81b6c4bc-b77f-40b6-96a2-2c9b9289dfa3-1GTeX2VcQKjFgfrLuoWHRpzK333BHBcq4.jpeg",
+          "title": "Khadi Natural Amla & Reetha Hair Cleanser",
+          "price": "₹179",
+          "price2":"₹210",
+          "weight":"210 ml",
+          "discount":"14%"
+    },
+    {
+        "id": 24,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1080-1080,pr-true,f-webp,q-80/inventory/product/c905a12c-6fcb-49a7-9e51-416026c0015b-/tmp/20230220-0732001.jpeg",
+          "title": "Scalpe Pro AntiDandruff Shampoo Removes Dandruff Strong Hair For Women & Men",
+          "price": "₹450",
+          "price2":"₹600",
+          "weight":"400 ml",
+          "discount":"25%"
+    },
+    {
+        "id": 25,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/c6ec84c9-2539-49dd-bd48-69738fc9d3ba-14edUGE6920RvAz4cw911KUX7CWp-5FvQ.jpeg",
+          "title": "Bare Anatomy Anti Hair Fall Shampoo For Women & Men",
+          "price": "₹436",
+          "price2":"₹545",
+          "weight":"250 ml",
+          "discount":"20%"
+    },
+    {
+        "id": 26,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/32bb2b8c-7e72-46c3-82fd-1ed1d2f47a87-1xGxPR4d-3S38Z8cSnkPgUoXOuXRtEPHO.jpeg",
+          "title": "Soulflower Herbal Super Rich Conditioner With Argan & Tamanu",
+          "price": "₹400",
+          "price2":"₹500",
+          "weight":"250 ml",
+          "discount":"20%"
+    },
+    {
+        "id": 27,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1024-1024,pr-true,f-webp,q-80/inventory/product/553ad086-3573-491e-9ecf-e36416378164-1HysjPcjpvdq93N2cdsEQDMGNUFC_qKKJ.jpeg",
+          "title": "Wow Skin Science Apple Cider Vinegar Shampoo",
+          "price": "₹370",
+          "price2":"₹499",
+          "weight":"300 ml",
+          "discount":"25%"
+    },
+    {
+        "id": 28,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/b41ee827-1682-491e-bbfc-70e2a6b13416-1k_HLs-hJcR7Kx08AVaNxr6fMZbwN4BCe.jpeg",
+          "title": "Nyle Dryness Hydration Herbal Shampoo",
+          "price": "₹173",
+          "price2":"₹205",
+          "weight":"400 ml",
+          "discount":"15%"
+    },
+    {
+        "id": 29,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/5e70efcc-c062-41db-80c2-4cc50dc5984c-13VWYRiz_yMvMMqpayMJmaPtCkYqPxhr9.jpeg",
+          "title": "Dove Hair Fall Rescue Shampoo",
+          "price": "₹666",
+          "price2":"₹740",
+          "weight":"650 ml",
+          "discount":"10%"
+    },
+    {
+        "id": 30,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-500,pr-true,f-webp,q-80/inventory/product/3a8c1619-3553-4ecb-9fb1-e451cc6b19dd-db2f3b02-fc3d-41a0-bc3d-6404e268c7be.jpeg",
+          "title": "Herbal Essences Argan Oil of Morocco Conditioner For Hair Repair and No Frizz",
+          "price": "₹323",
+          "price2":"₹380",
+          "weight":"240 ml",
+          "discount":"15%"
+    }
+
+  ],
+  "Makeup":[
+    {
+        "id": 1,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/c89f35c6-5275-4124-b8be-13653aff648f-1exxYsUISux3Ul8efHeYm95FxltJLivd7.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/c89f35c6-5275-4124-b8be-13653aff648f-1m_bP5_4raHc3TPkeVx8gJAuQp-JTgM_J.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/c89f35c6-5275-4124-b8be-13653aff648f-1bxvCxzl2nVWy33dm_o5R-NQ_6ZEtzZVZ.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/c89f35c6-5275-4124-b8be-13653aff648f-15-yB2zmeblqWvthvJtMDE4WAGljP8rde.jpeg",
+          "title": "Maybelline New York Fit Me Shade 128 Warm Nude Compact Powder - Powder That Protects Skin From Sun Absorbs Oil Sweat And Helps You To Stay Fresh For Upto 12Hrs",
+          "price": "₹220",
+          "price2":"₹249",
+          "weight":"8 g",
+          "discount":"11%"
+    },
+    {
+        "id": 2,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/051d25ec-274d-4f74-bf42-2d4ad045daa0-1DBayIZ3gm4GOAXsrz2dh3qpaPQ7zLiMA.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-644-879,pr-true,f-webp,q-80/inventory/product/051d25ec-274d-4f74-bf42-2d4ad045daa0-1aIczaFMXLwUFmvkYuWIGvnxdQcry1Kuf.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/051d25ec-274d-4f74-bf42-2d4ad045daa0-1Hcnkv62C1uOfcSTfdWLDOaAbrpI_z8Oh.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-644-879,pr-true,f-webp,q-80/inventory/product/051d25ec-274d-4f74-bf42-2d4ad045daa0-1zhAEq-ndg-4bG792ucZ5VxEqCX0JgCSV.jpeg",
+          "title": "SUGAR Cosmetics Kohl Of Honour Intense Kajal - 01 Black Out (Single Blister)",
+          "price": "₹249",
+          "price2":"₹380",
+          "weight":"0.25 g",
+          "discount":"15%"
+    },
+    {
+        "id": 3,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/745816f4-ab32-4304-be2b-d927f5b16cf9-1-fPDAGh2RaaOWrZaaVbDUHCeK-_mIOJN.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/745816f4-ab32-4304-be2b-d927f5b16cf9-1T2E7RJ6vXHHyh3G33dr3wNBX9VB6sp3u.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/745816f4-ab32-4304-be2b-d927f5b16cf9-1QMYwS_-mURoqaUWMTwwGWOVkcAAsY4r7.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/745816f4-ab32-4304-be2b-d927f5b16cf9-1lGOo4K7rUMsH8ywr_DJFvn5axZw8n-AE.jpeg",
+          "title": "Faces Canada Ultime Pro Splash Nail Enamel Floral Dream 56",
+          "price": "₹107",
+          "price2":"₹119",
+          "weight":"1 piece",
+          "discount":"10%"
+    },
+    {
+        "id": 4,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/664fea7c-f775-4ef3-8f89-e2d0cbd62f1a-19NTGwVDlAJP_UR4iSKXzXYkuQI5rm-u1.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-500,pr-true,f-webp,q-80/inventory/product/664fea7c-f775-4ef3-8f89-e2d0cbd62f1a-15guuKo6f4oEHIoPwqhp6n8agwVHTQ3eZ.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/664fea7c-f775-4ef3-8f89-e2d0cbd62f1a-1CHovdwqCnoxSfEH9nuo3PdtfABfH974O.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/664fea7c-f775-4ef3-8f89-e2d0cbd62f1a-1QpY9HQcG4rSQQvrD0u5Gwe__S2aYT1fA.jpeg",
+          "title": "Lakme 9 to 5 Complexion Care Face Cream Bronze",
+          "price": "₹285",
+          "price2":"₹299",
+          "weight":"30 g",
+          "discount":"4%"
+    },
+    {
+        "id": 5,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/324dce63-fd0c-4cda-be12-1f72f4a18f6c-1NtWEfhi-CuuxiJJCzmgQHn7C7Tq85vr_.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/324dce63-fd0c-4cda-be12-1f72f4a18f6c-1zfswAgFQ-soPPFXBsIdGT_SdSTKaOPu5.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/324dce63-fd0c-4cda-be12-1f72f4a18f6c-15fELFNDrUe3Ynh4feEpCukqLApVuwYFm.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/324dce63-fd0c-4cda-be12-1f72f4a18f6c-1NrpdktskjACx32rHJDJPbkwruZUVwRRF.jpeg",
+          "title": "Maybelline New York Sensational Liquid Matte Lipstick 21 Nude Nuance - Liquid Lipstick Shades Delivering Intense Matte Color Effect",
+          "price": "₹352",
+          "price2":"₹399",
+          "weight":"7 ml",
+          "discount":"11%"
+    },
+    {
+        "id": 6,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-644-879,pr-true,f-webp,q-80/inventory/product/703a25d2-2b84-40af-bdcc-212fef17aadc-15JpAMce7hALaN5crjuEk86vWHLIDveBz.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/703a25d2-2b84-40af-bdcc-212fef17aadc-17fZejsp9wJSaFOFUlNWkSGVRN24pGpV6.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/703a25d2-2b84-40af-bdcc-212fef17aadc-1naBoRvl7pqr8YzABcptwVCLya5SGX9Bf.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/703a25d2-2b84-40af-bdcc-212fef17aadc-1obBr-WpEmoVmwwrS26rRSqL00uYh1sFp.jpeg",
+          "title": "SUGAR Cosmetics Smudge Me Not Liquid Mini Lipstick - 09 Suave Mauve",
+          "price": "₹225",
+          "price2":"₹249",
+          "weight":"1 piece",
+          "discount":"9%"
+    },
+    {
+        "id": 7,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/e8236017-295e-46ca-a94e-b65fb44f8427-1W-316rQkN74AIgizvI5NvJzLyXyXwgmM.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/e8236017-295e-46ca-a94e-b65fb44f8427-137eyiVlidGj6Ce_qZriMg6bTg1XaFAOS.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/e8236017-295e-46ca-a94e-b65fb44f8427-1Oti2XWS3523J9NGePZDxtE5rvy_11lgx.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/e8236017-295e-46ca-a94e-b65fb44f8427-1SLVo4G3wnUm4pL0Qv3oDH6m-CXt1UXR-.jpeg",
+          "title": "Maybelline New York Lash Sensational Sky High Waterproof Mascara Lengthening & Volumizing Mascara With Bamboo Exract & Fibres Very Black 6Ml",
+          "price": "₹704",
+          "price2":"₹799",
+          "weight":"6 ml",
+          "discount":"11%"
+    },
+    {
+        "id": 8,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/0b11668f-ab74-4b02-b1ad-62b2e30681eb-1ETSc5RB3vWyoELrhjv4j_ki1wob4xGF-.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/0b11668f-ab74-4b02-b1ad-62b2e30681eb-1M-MnC3n7psRUwbWdiaPC9CZ7AY7kx353.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/0b11668f-ab74-4b02-b1ad-62b2e30681eb-13VP4omCDKdcvLtGGiYajRAmoeKyVQmRs.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/0b11668f-ab74-4b02-b1ad-62b2e30681eb-14srOJP5kV_RI_20Aojbw6qTIfFG4ixRN.jpeg",
+          "title": "Maybelline New York Super Stay Ink Crayon Lipstick X Pinks Edition 85 Change Is Good",
+          "price": "₹704",
+          "price2":"₹799",
+          "weight":"1.2 g",
+          "discount":"11%"
+    },
+    {
+        "id": 9,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/d966ebfa-96c5-4d10-947d-830d8b761bc2-dea83725-f72c-450b-aefb-61a00c2534c9.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/744085a0-cc54-47f3-9099-0fd6ee3ee25f-1C7wPt3SwL4Y9nuVwgbdprMIxc4sY0DbX.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/744085a0-cc54-47f3-9099-0fd6ee3ee25f-1qYvBX6ztFVMd0LpHt3n3zyGuGRjuiHLn.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/744085a0-cc54-47f3-9099-0fd6ee3ee25f-1-3YSJJtc1CmD6pD8jLcdHoMGGpo3xk80.jpeg",
+          "title": "Garnier Bright Complete Mask",
+          "price": "₹99",
+          "price2":"₹380",
+          "weight":"28 g",
+          "discount":"15%"
+    },
+    {
+        "id": 10,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-3868-3868,pr-true,f-webp,q-80/inventory/product/42693592-107f-4b7a-885f-5f8b12a3e9cd-1ZYsSFQka58ue1iE1LAIFa9Zpy-4rf1w-.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-3868-3868,pr-true,f-webp,q-80/inventory/product/42693592-107f-4b7a-885f-5f8b12a3e9cd-1FA5ZFPVKZvfPqY350B_8G3AqyzwD9WBd.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-3868-3868,pr-true,f-webp,q-80/inventory/product/42693592-107f-4b7a-885f-5f8b12a3e9cd-1jJ0B2gkRoxLcYiVp8dyQfm2ExeRmn6Hr.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-3868-3868,pr-true,f-webp,q-80/inventory/product/42693592-107f-4b7a-885f-5f8b12a3e9cd-17kmAQEGECeesYZ29MbsDgK9-eFfPQ3oY.jpeg",
+          "title": "Faces Canada Weightless Matte Finish Foundation Beige 03",
+          "price": "₹172",
+          "price2":"₹199",
+          "weight":"18 ml",
+          "discount":"13%"
+    },
+    {
+        "id": 11,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1200-1200,pr-true,f-webp,q-80/inventory/product/1f2b7f13-542f-4862-906a-22efe37032da-745ca29b-9b4a-43b5-b736-3014846075a7.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/e6c49509-04b7-4179-b46b-cb01fa778f17-1BcYg8TWg7gONeK1Ass-cbp_nok6y1asA.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1201-1200,pr-true,f-webp,q-80/inventory/product/e6c49509-04b7-4179-b46b-cb01fa778f17-1jiyXScbqJxmDJOGTYZ0wVCTH65cM9Uz7.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1499,pr-true,f-webp,q-80/inventory/product/e6c49509-04b7-4179-b46b-cb01fa778f17-1cLp4w0jZNyfnhgwQyptms5--UhoE6b0O.jpeg",
+          "title": "Mamaearth Bye Bye Dark Circles Under Eye Cream",
+          "price": "₹368",
+          "price2":"₹399",
+          "weight":"20 ml",
+          "discount":"7%"
+    },
+    {
+        "id": 12,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-4167-4167,pr-true,f-webp,q-80/inventory/product/a46218ff-2ce1-4aaa-8442-800d1dd9b1b8-1DCwVXDR1QOeAiqjMijIEhQHrSbzdW4Be.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-4167-4167,pr-true,f-webp,q-80/inventory/product/a46218ff-2ce1-4aaa-8442-800d1dd9b1b8-1sRgFviP7GcRES6cmVXlHlzwVvX_kxt_V.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/a46218ff-2ce1-4aaa-8442-800d1dd9b1b8-1nEqsrJADrKXR3yXjx-gch4NGOxEtEait.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/a46218ff-2ce1-4aaa-8442-800d1dd9b1b8-18J2JkN6qcy02fTOWx0G8lyy1ypk7UiiM.jpeg",
+          "title": "Maybelline New York Fit Me Concealer25 Medium",
+          "price": "₹528",
+          "price2":"₹599",
+          "weight":"6.8 ml",
+          "discount":"11%"
+    },
+    {
+        "id": 13,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1025-1400,pr-true,f-webp,q-80/inventory/product/55af1823-b99a-48b0-a874-e4dcecc6f5bb-Photo.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/af23e1c3-731b-49d3-a689-603b67df475b-1_6lLPKJEPVZ-8yGnkaE0wkQPzvR8XOwc.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/af23e1c3-731b-49d3-a689-603b67df475b-1ZhgKyI_gsmljJ_gOsWbfOfYnJKXMNjCi.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/af23e1c3-731b-49d3-a689-603b67df475b-1Ay5bCKXvpsQgRcTb-_-p8K9MNdJjGdfG.jpeg",
+          "title": "SUGAR Cosmetics Arch Arrival Brow Definer - 03 Woody Scooby (Deep Brown)",
+          "price": "₹499",
+          "price2":"₹580",
+          "weight":"3.5 g",
+          "discount":"15%"
+    },
+    {
+        "id": 14,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1934-1934,pr-true,f-webp,q-80/inventory/product/7192a837-8900-432b-8d38-aaf74d48c878-1pTKwbQMhj-82cjGguD5xA6eqdqbBpYV4.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-2500-2500,pr-true,f-webp,q-80/inventory/product/7192a837-8900-432b-8d38-aaf74d48c878-1HQ2Z-lNMa5M_6KzJ7y4dFsLLoETQBfk5.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-2500-2500,pr-true,f-webp,q-80/inventory/product/7192a837-8900-432b-8d38-aaf74d48c878-1nH0er6H9C7ur7wQYUtne-PcR4Ld1GIMd.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-2500-2500,pr-true,f-webp,q-80/inventory/product/7192a837-8900-432b-8d38-aaf74d48c878-1PnPUmWUlCzPcCwz7nZd8VOK3s_JrdXbW.jpeg",
+          "title": "Faces Canada Weightless Matte Finish Lipstick Buff Nude 05",
+          "price": "₹240",
+          "price2":"₹299",
+          "weight":"4.5 g",
+          "discount":"19%"
+    },
+    {
+        "id": 15,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/9174d87e-7c47-4dc2-b4ea-d140ca30d052-103pRtkbCEAOkWwsYSEIURWBitjpFN-wX.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/9174d87e-7c47-4dc2-b4ea-d140ca30d052-1WkQze_o0KFO2TQfhUmnwnXafE1ORTbYh.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/9174d87e-7c47-4dc2-b4ea-d140ca30d052-1lQXPYXdXfLnsm7WwjEhXDLcQVCSwENIW.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/9174d87e-7c47-4dc2-b4ea-d140ca30d052-1HWLWqK36uLqie2VNIPRMnu2Q6TNz4EOD.jpeg",
+          "title": "Lakme True Wear Nail Color, Reds & Maroons 404",
+          "price": "₹120",
+          "price2":"₹380",
+          "weight":"9 ml",
+          "discount":"15%"
+    },
+    {
+        "id": 16,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/92e4510f-1df0-4c27-9060-885cc6e7987d-1_2BRtr6IN3KBAyra6Tjlx7b-SkfGmG3E.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/92e4510f-1df0-4c27-9060-885cc6e7987d-1-DZHfxYZ03BXMtaIBDz0YxWTwnjHTvM2.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/92e4510f-1df0-4c27-9060-885cc6e7987d-13aV3ZXZGOyry-KiqYGA83fCvRfiCcBAp.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/92e4510f-1df0-4c27-9060-885cc6e7987d-1iFdJxCHoCduJ7hk0mvDL8bwxcTFXjgCK.jpeg",
+          "title": "Minimalist Salicylic Acid 2% For Acne Backheads And Oil Control Serum For Men & Women",
+          "price": "₹522",
+          "price2":"₹549",
+          "weight":"30 ml",
+          "discount":"4%"
+    },
+    {
+        "id": 17,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/fc0a4140-133b-4eaa-8006-3d45efe2cd81-1FsRMQuTz9-fgmmMsscsA1N_9biUutMns.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/fc0a4140-133b-4eaa-8006-3d45efe2cd81-1dS-F5AINXtE1_iH9IgTcdmTUH5NytOfc.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/fc0a4140-133b-4eaa-8006-3d45efe2cd81-11SGvdBLt1r4Y5YqJGvrc4jktJFb6QqZW.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/fc0a4140-133b-4eaa-8006-3d45efe2cd81-11G1Cfvhbp2zTYCmOQ3N21flYLhaxED2N.jpeg",
+          "title": "Dabur Gulabari Premium Rose Water - Paraben Free Skin Toner,",
+          "price": "₹50",
+          "price2":"₹52",
+          "weight":"120 ml",
+          "discount":"3%"
+    },
+    {
+        "id": 18,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-6096-9144,pr-true,f-webp,q-80/inventory/product/8aaaeed4-1021-477e-bff8-94e8b56b9b24-1qTBVijp0MlOIe2pSocSszUXXHtTN86Xg.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/8aaaeed4-1021-477e-bff8-94e8b56b9b24-1uT6q4bmtS4ARdaeJ3hbXpgfrTlSDLDTu.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-3600-3600,pr-true,f-webp,q-80/inventory/product/8aaaeed4-1021-477e-bff8-94e8b56b9b24-1YyObeA8_0W_NoyAi4EGVdQF3wg4J0AIw.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-6096-9144,pr-true,f-webp,q-80/inventory/product/8aaaeed4-1021-477e-bff8-94e8b56b9b24-1qTBVijp0MlOIe2pSocSszUXXHtTN86Xg.jpeg",
+          "title": "Hair Rubber Bands, Assorted Colour, 8 Pcs",
+          "price": "₹45",
+          "price2":"₹49",
+          "weight":"8 piece",
+          "discount":"8%"
+    },
+    {
+        "id": 19,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/dcae1887-321f-4370-8e89-d03568ffff55-5f1ac8a5-4436-4b4b-9b4b-9d9879a7c5c4.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1120-1120,pr-true,f-webp,q-80/inventory/product/c7f0d8fb-1af1-431a-b330-3e7ebb07ee24-1CQrSLjgIOpxR4FtSN1AnOYEVz0-EZ7xb.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-900-900,pr-true,f-webp,q-80/inventory/product/c7f0d8fb-1af1-431a-b330-3e7ebb07ee24-1DP-ljSUfIUKDEZENzi8lZI7PlY3poOXK.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/dcae1887-321f-4370-8e89-d03568ffff55-5f1ac8a5-4436-4b4b-9b4b-9d9879a7c5c4.jpeg",
+          "title": "Glow & Lovely Advanced Multi Vitamin Face Cream",
+          "price": "₹122",
+          "price2":"₹380",
+          "weight":"50 g",
+          "discount":"15%"
+    },
+    {
+        "id": 20,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-306,pr-true,f-webp,q-80/inventory/product/9ff9e97a-8079-48e1-90d8-8d019b789463-1k3yXOl3_czdPCGQDIFN1pYIwtZczlK8F.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-397,pr-true,f-webp,q-80/inventory/product/9ff9e97a-8079-48e1-90d8-8d019b789463-12dbDj0tGsZadFQ07gHCZUVWE-P7DokhI.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-500-500,pr-true,f-webp,q-80/inventory/product/9ff9e97a-8079-48e1-90d8-8d019b789463-1Z0H5TWtt8U6QwEDhOwSheiDGrzKewmUE.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1200-923,pr-true,f-webp,q-80/inventory/product/9ff9e97a-8079-48e1-90d8-8d019b789463-1q-c9SUaQjmqxYNeezGW8OC_ZRt-rdcBo.jpeg",
+          "title": "Tic Tac Pins Medium ( 12 Pcs )",
+          "price": "₹49",
+          "price2":"₹55",
+          "weight":"12 piece",
+          "discount":"10%"
+    },
+    {
+        "id": 21,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-337-500,pr-true,f-webp,q-80/inventory/product/9d4c530e-bcfd-48fd-8c97-c23203f5eabc-8932ced6-26d9-4130-899b-16fd778498cb.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-800-800,pr-true,f-webp,q-80/inventory/product/b68e43ce-f71b-4e02-bccd-5eda6c9f2f67-17iI2ZLJNylAynRsoaiBZRCwoHRVmYbru.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/b68e43ce-f71b-4e02-bccd-5eda6c9f2f67-17i4nSbyCuu65Ae0ot2CENGbFvp8DG78g.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-337-500,pr-true,f-webp,q-80/inventory/product/9d4c530e-bcfd-48fd-8c97-c23203f5eabc-8932ced6-26d9-4130-899b-16fd778498cb.jpeg",
+          "title": "Maybelline Baby Lips Cherry Kiss",
+          "price": "₹176",
+          "price2":"₹199",
+          "weight":"1 piece",
+          "discount":"11%"
+    },
+    {
+        "id": 22,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1080-1080,pr-true,f-webp,q-80/inventory/product/85d97718-18fe-4cca-aa57-5543d2343d20-1Ayx15JoLu7qCOxrm3RIJOU5CTJYr3Pnt.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-750-1500,pr-true,f-webp,q-80/inventory/product/85d97718-18fe-4cca-aa57-5543d2343d20-1pq8ox25eD0Xw7syhC_oPGwFC-ZEIwFyO.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1080-1080,pr-true,f-webp,q-80/inventory/product/85d97718-18fe-4cca-aa57-5543d2343d20-1sOyCJdmXO7UWuzf_brAyIyPdHH_MwoH-.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1080-1080,pr-true,f-webp,q-80/inventory/product/85d97718-18fe-4cca-aa57-5543d2343d20-1RggwicTQNXjYxz1zkWhCS4ibonIbFAuu.jpeg",
+          "title": "WOW Skin Science Aloe Vera Gel",
+          "price": "₹270",
+          "price2":"₹299",
+          "weight":"150 ml",
+          "discount":"9%"
+    },
+    {
+        "id": 23,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-webp,q-80/inventory/product/09a4ea2c-dbf9-4cf0-9f59-3387be274dee-1_7KTVdLoAW70Yw2zagPoazLwujZSj_we.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1014,pr-true,f-webp,q-80/inventory/product/09a4ea2c-dbf9-4cf0-9f59-3387be274dee-1mmVKOaRznrZTa54y4YpAryzOAq0Ftdrb.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1025-1000,pr-true,f-webp,q-80/inventory/product/09a4ea2c-dbf9-4cf0-9f59-3387be274dee-1lZR0qs9GyQYqAfgwWnX8owh_fD1izHcW.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1031-1000,pr-true,f-webp,q-80/inventory/product/09a4ea2c-dbf9-4cf0-9f59-3387be274dee-1hCQkMDZ4ITffK2QBCUeY5GRCFg7mJEOv.jpeg",
+          "title": "Mamaearth Aloe Vera Gel For Face",
+          "price": "₹294",
+          "price2":"₹319",
+          "weight":"300 ml",
+          "discount":"7%"
+    },
+    {
+        "id": 24,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/eec84dcf-1443-4f13-bdc2-9dfcbeb482c8-1M-TIadmQwza1uDJsbwrm2wf2_jX9SMRt.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/eec84dcf-1443-4f13-bdc2-9dfcbeb482c8-1wJf2M0JohDUzPZgkO5EB9T-A5V48WqpK.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/eec84dcf-1443-4f13-bdc2-9dfcbeb482c8-13HMGqEvUUB-05VGLTwS3vnqcHc-BU63m.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-679-679,pr-true,f-webp,q-80/inventory/product/eec84dcf-1443-4f13-bdc2-9dfcbeb482c8-1xmMHTq9P_9bbtiRcxfOT281urjlDKPJn.jpeg",
+          "title": "Nivea Lip Balm Soft Rose for 24h Moisture with Natural Oils Delicate Rose Shine",
+          "price": "₹199",
+          "price2":"₹380",
+          "weight":"4.8 g",
+          "discount":"15%"
+    },
+    {
+        "id": 25,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-657-823,pr-true,f-webp,q-80/inventory/product/73ca31e0-8caa-4cc1-90f5-52732b21cf55-1VvauwMd1YwGQUP-QKIRn6bgE129ABuH4.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-438-1500,pr-true,f-webp,q-80/inventory/product/73ca31e0-8caa-4cc1-90f5-52732b21cf55-14t9ZqryO9Q6LCnfTxxRE5eRu_JIcnodo.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/73ca31e0-8caa-4cc1-90f5-52732b21cf55-16aUGidu2uGpTmon-n_SM9BT5APJ-PNes.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-600-600,pr-true,f-webp,q-80/inventory/product/73ca31e0-8caa-4cc1-90f5-52732b21cf55-1BkEH7EVfKq_pDNx6X0_u59UpojYixy7u.jpeg",
+          "title": "White Tone Creamface Cream",
+          "price": "₹140",
+          "price2":"₹380",
+          "weight":"50 g",
+          "discount":"15%"
+    },
+    {
+        "id": 26,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/a73dac06-86af-4bc4-a837-3eeda6e546b0-1Q65vi15Q14Aal_THbSpRx7wJXgeOmeua.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1050-1050,pr-true,f-webp,q-80/inventory/product/a73dac06-86af-4bc4-a837-3eeda6e546b0-17M0CvxSW_46tBFiPl-KZwkUkezHGcy5z.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1050-1050,pr-true,f-webp,q-80/inventory/product/a73dac06-86af-4bc4-a837-3eeda6e546b0-1PJ2B4iNntv9Che9lHMwN02wx91ryIdRn.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/a73dac06-86af-4bc4-a837-3eeda6e546b0-1Q65vi15Q14Aal_THbSpRx7wJXgeOmeua.jpeg",
+          "title": "Maybelline Baby Lips Pink Lolita",
+          "price": "₹176",
+          "price2":"₹199",
+          "weight":"1 piece",
+          "discount":"11%"
+    },
+    {
+        "id": 27,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/ce13b631-efe9-422a-b08d-9b3496c7d740-1NBD86UO71GdsXEEPxvOn46GnuwXj3aaz.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-6240-4160,pr-true,f-webp,q-80/inventory/product/ce13b631-efe9-422a-b08d-9b3496c7d740-1-A1aSOGIR-BvU6UGZhkNmSWiuu2mP0CN.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/ce13b631-efe9-422a-b08d-9b3496c7d740-1sXhPpOrg42bZO5_f1nLZX0Upvgy61OlV.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-2083-2083,pr-true,f-webp,q-80/inventory/product/ce13b631-efe9-422a-b08d-9b3496c7d740-1BCmc4PkAqkV5SpRSXpl8tImvQd82aHxG.jpeg",
+          "title": "Compact Pop-up Hair Brush with Foldable Mirror (Gold)",
+          "price": "₹175",
+          "price2":"₹249",
+          "weight":"1 piece",
+          "discount":"29%"
+    },
+    {
+        "id": 28,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/56c2dbf4-fb48-4e64-af2d-f10d6dbb707f-1mhugs-F69UigQBHYWoVD15vb2TCXgnMd.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/56c2dbf4-fb48-4e64-af2d-f10d6dbb707f-1-6CnrGSIbVZes5Ya-EIRk66jvUwQz1g8.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/56c2dbf4-fb48-4e64-af2d-f10d6dbb707f-1xxJyK3r8AnAxUBZqC8uRQtMclX_p6jmR.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-webp,q-80/inventory/product/56c2dbf4-fb48-4e64-af2d-f10d6dbb707f-1AFUxiBpjXU3ssIyrzWsi6yJ6_MApC0xO.jpeg",
+          "title": "Silicone Face Cleansing Scrubber for Exfoliation, Massaging (Pack of 2)",
+          "price": "₹225",
+          "price2":"₹299",
+          "weight":"1 piece",
+          "discount":"24%"
+    },
+    {
+        "id": 29,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/aeb4dd76-bc2c-474c-92e2-533b0fa12a93-1ZFpP1SlHJebaJPmdDI-zTi72NDXviytx.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/aeb4dd76-bc2c-474c-92e2-533b0fa12a93-1GwxVNHeDn69uBbX0UbYNYocbDFMgQwOs.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/aeb4dd76-bc2c-474c-92e2-533b0fa12a93-14_b5NgfswzGt4jfLSxJ9u3EUTo_1ItaO.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-webp,q-80/inventory/product/aeb4dd76-bc2c-474c-92e2-533b0fa12a93-10PfEDrKqlVH6vEmBb842DJKaL3cPbu7c.jpeg",
+          "title": "Vaseline Lip Tins Aloe",
+          "price": "₹323",
+          "price2":"₹380",
+          "weight":"17 g",
+          "discount":"4%"
+    },
+    {
+        "id": 30,
+          "img":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/37d07622-7821-4efc-99d6-8160235b2f0a-19O-16RJf3qJ0mUryXCHTX4oLggZ_k63u.jpeg",
+          "img2":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/37d07622-7821-4efc-99d6-8160235b2f0a-1N0nuSRwh1fc7UHcoXFCwlWxUklm56ntj.jpeg",
+          "img3":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/37d07622-7821-4efc-99d6-8160235b2f0a-1C04Mj8FNKiPlfDKyOmqyx1ANVLltFIl7.jpeg",
+          "img4":"https://cdn.zeptonow.com/production///tr:w-450,ar-1100-1100,pr-true,f-webp,q-80/inventory/product/37d07622-7821-4efc-99d6-8160235b2f0a-1_GyQwYTY5Tt-2NYp3t7DtaAhRKEh6il8.jpeg",
+          "title": "mCaffeine Coffee Lip Scrub | Exfoliates & Reduces Pigmentation",
+          "price": "₹285",
+          "price2":"₹299",
+          "weight":"12 g",
+          "discount":"4%"
+    }
+    
   ]
 }

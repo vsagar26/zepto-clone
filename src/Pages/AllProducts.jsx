@@ -6,16 +6,16 @@ import styles from '../styles/styles.module.css';
 
 function AllProducts() {
     const [data,setData] = useState([])
-    const array = ["Fruits","Vegetables"];
+    const array = ["Fruits","Vegetables","Baths","Makeup"];
 
     const getData = async(category) => {
-        const response = await fetch(`http://localhost:3000/${category}`)
+        const response = await fetch(`https://zeptojson.onrender.com/${category}`)
         const products = await response.json();
         setData(products)
     }
 
     const getAllData = async() => {
-        const response = await fetch(`http://localhost:3000/Fruits`)
+        const response = await fetch(`https://zeptojson.onrender.com/Fruits`)
         const products = await response.json();
         setData(products)
     }
