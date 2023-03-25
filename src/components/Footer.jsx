@@ -6,10 +6,10 @@ import { BsGooglePlay } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="mt-12 ml-12 md:ml-32">
+    <div className="w-[100%] pl-8 md:pl-32">
+      <div className="">
         <h2 className="text-[18px] md:text-[24px] font-medium ">Categories</h2>
-        <div className="mt-4 md:mt-8 mb-6">
+        <div className="mt-4 md:mt-8 mb-6 w-[100%]">
           <ul className="flex flex-col flex-wrap h-[300px] md:h-[200px] w-[200px] md:w-full gap-x-5 md:gap-x-0 text-[12px] md:text-[14px] text-[#575757]">
             {category.map((item, id) => (
               <li
@@ -20,11 +20,11 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          <div className="h-[1px] w-[96%] bg-slate-300 mt-6"></div>
+          <div className="h-[2px] bg-[#b1b1b1] w-[94%] rounded-lg my-8"></div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-x-32 mb-10">
-        <div className="mt-4 ml-12 md:ml-32">
+      <div className="flex flex-col md:flex-row gap-x-32 mb-10 mt-12">
+        <div className="">
           <img src={logo} alt="logo" />
           <div className="flex flex-row gap-4 mt-6">
             {socialmedia.map((socialmed, id) => (
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           <p className="mt-5">&#169;KiranaKart Technologies Private Limited</p>
         </div>
-        <div className="flex flex-row ml-12 md:ml-0 gap-12 md:gap-x-32 mb-10 mt-6 md:mt-0">
+        <div className="flex flex-row  gap-12 md:gap-x-32 mb-10 mt-6 md:mt-0">
           <div className="mt-8">
             <ul className="gap-4">
               <li className="mb-2">Home</li>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8">
-          <div className="ml-12">
+          <div>
             <p className="mb-2">Download App</p>
             <div className="flex flex-col gap-4 w-[400px] md:w-full ">
               <button className="mb-2 mt-2 border-2 px-0 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4">

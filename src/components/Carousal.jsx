@@ -3,7 +3,7 @@ import { carousalone, carousaltwo, carousalthree, carousalfour, carousalfive, ca
 
 const Carousal = () => {
   return (
-    <div>
+    <div className='w-[100%]'>
         <div className='mt-8 flex flex-row h-[260px] gap-6 px-8 ml-28 overflow-x-scroll w-[1280px] cursor-pointer'>
             <img src={carousalone} alt="carousalone" />
             <img src={carousaltwo} alt="carousaltwo" />
