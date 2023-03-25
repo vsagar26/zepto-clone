@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProductCard from './ProductCard'
 
 function ProductDetails({data}) {
@@ -7,7 +8,14 @@ function ProductDetails({data}) {
     <div>
         {
             data.map((el,id) => 
-                <ProductCard key={id} data={el} />
+            <>
+              <Link to={`/singleProduct/${id}`} >
+                <div style={{border:"1px solid black"}} >
+                  <ProductCard key={id} data={el} />
+                </div>
+              </Link>
+            </>
+                
             )
         }
     </div>
