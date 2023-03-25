@@ -6,7 +6,7 @@ import { BsGooglePlay } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="w-[100%] pl-8 md:pl-32">
+    <div className="w-[100%] pl-8 md:pl-32 pt-4 md:pt-10">
       <div className="">
         <h2 className="text-[18px] md:text-[24px] font-medium ">Categories</h2>
         <div className="mt-4 md:mt-8 mb-6 w-[100%]">
@@ -20,7 +20,7 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          <div className="h-[2px] bg-[#b1b1b1] w-[94%] rounded-lg my-8"></div>
+          <div className="h-[2px] bg-[#97969690] w-[94%] rounded-lg my-8"></div>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-x-32 mb-10 mt-12">
