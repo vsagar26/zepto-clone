@@ -17,6 +17,8 @@ function AllProducts() {
     const getAllData = async() => {
         const response = await fetch(`https://zeptojson.onrender.com/Fruits`)
         const products = await response.json();
+        const category = "Fruits"
+        localStorage.setItem("category",category)
         setData(products)
     }
 
@@ -24,8 +26,9 @@ function AllProducts() {
 
     const handleClick = (id) => {
         var category = array[id];
-        getData(category)
         localStorage.setItem("category",category)
+        getData(category)
+        
     }
 
     useEffect(() => {
