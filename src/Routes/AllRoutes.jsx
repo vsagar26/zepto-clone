@@ -6,6 +6,7 @@ import Cart from '../Pages/Cart';
 import Home from '../Pages/Home';
 import Login from '../Pages/Login';
 import SignUp from '../Pages/SignUp';
+import SingleProduct from '../Pages/SingleProduct';
 
 
 function AllRoutes() {
@@ -21,6 +22,9 @@ function AllRoutes() {
               <Cart/>
               </PrivateRoute>
               } />
+            <Route path='/singleProduct/:id' element={
+              <SingleProduct/>
+            } />
         </Routes>
     </>
     

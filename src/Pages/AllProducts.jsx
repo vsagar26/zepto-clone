@@ -20,10 +20,12 @@ function AllProducts() {
         setData(products)
     }
 
+    
+
     const handleClick = (id) => {
         var category = array[id];
         getData(category)
-        
+        localStorage.setItem("category",category)
     }
 
     useEffect(() => {

@@ -1,0 +1,116 @@
+.main{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+.box{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.leftDiv{
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-top: 25px;
+    gap: 40px;
+}
+.rightDiv{
+    width: 50%;
+    border: 1px solid red;
+}
+.sliderBox{
+    border: 1px solid #ebeaec;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    padding: 90px;
+    border-radius: 5px;
+}
+
+.sliderBox>div>img{
+    width: 70%;
+    border: 1px solid black;
+}
+.aboutProduct{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.ulStyle{
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    color: #807886;
+    padding-top: 20px;
+}
+.ulStyle>ul{
+    list-style-type: disc;
+    font-size: 19px;
+}
+
+/* right Section */
+
+.details{
+    border-bottom: 1px solid #ebeaec;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 82%;
+    height: 45%;
+}
+.section>p{
+    cursor: pointer;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.weight{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(43, 30, 53, 0.7);
+}
+.prices{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    align-items: center;
+    padding: 18px 18px 18px 0px;
+}
+.price{
+    font-weight: 700;
+    font-size: 24px;
+}
+.price2{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(43, 30, 53, 0.7);
+}
+.discount{
+    border: 1px solid black;
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    background-color: #450072;
+    color: white;
+    border-radius: 8px;
+}
+.addBtn{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.addBtn>button{
+    /* border: 1px solid red; */
+    padding: 12.5px 45px 12px 45px;
+    background-color: #ff3269;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
