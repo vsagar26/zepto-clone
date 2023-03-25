@@ -18,9 +18,11 @@ const Navbar = () => {
         </div>
         <BsSearch className='hidden sm:flex md:hidden text-white text-[20px]'/>
         <a href="#" className='text-white font-semibold hidden sm:flex'>Login</a>
+        <Link to='/cart' >
         <button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
             <BsBag className='text-[24px] mr-3'/>My Cart
         </button>
+        </Link>
         
         <BiUser className='flex sm:hidden text-white text-[20px] font-semibold cursor-pointer'/>
     </div>
