@@ -71,6 +71,7 @@ label {
     font-weight: 600;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
