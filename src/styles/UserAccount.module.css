@@ -1,0 +1,97 @@
+.userMain{
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.userMain>div{
+    height: auto;
+    width: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+}
+.accountDiv{
+    width: 80%;
+    height: auto;
+    border: 1px solid #dfdde1;
+    display: flex;
+    border-radius: 10px;
+}
+.accountLeft{
+    width: 35%;
+    height: 800px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #3c006b;
+    border-radius: 10px;
+}
+.accountLeft>div{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    
+}
+.first{
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px;
+}
+.myAccount{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.emailText{
+    font-size: 18px;
+    color: #a69c9d;
+    font-weight: 500;
+}
+.second{
+    border-bottom: 2px solid white;
+    padding: 13px;
+}
+.second>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.second>ul>li{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.third{
+    /* border: 1px solid white; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.third>button{
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    /* border: 1px solid white; */
+    width: 100%;
+}
+.accountRight{
+    width: 65%;
+    height: 600px;
+    /* border: 1px solid black; */
+    padding: 45px 20px 20px 20px;
+    margin-top: 15px;
+}
+.accountRight{
+    overflow-y: scroll;
+}

@@ -1,0 +1,31 @@
+.orderMain{
+    /* border: 1px solid blue; */
+    padding: 20px 10px 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 10px;
+}
+.orderMain>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+    font-size: 18px;
+    font-weight: 700;
+}
+.orderTitle{
+    font-size: 18px;
+    font-weight: 700;
+}
+.delivered{
+    /* border: 1px solid green; */
+    font-size: 15px;
+    padding: 5px 8px 5px 8px;
+    background-color: #52b75d;
+    color: white;
+    border-radius: 5px;
+}
