@@ -1,11 +1,13 @@
 import React from 'react'
-import { Hero } from '../components'
+import { ExploreByCategories, Hero, ExploreNewCategories, HowItWorks } from '../components'
 
 function Home() {
   return (
     <>
         <Hero/>
-        
+        <ExploreByCategories/>
+        <ExploreNewCategories/>
+        <HowItWorks/>
     </>
   )
 }
