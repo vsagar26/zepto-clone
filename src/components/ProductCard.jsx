@@ -19,12 +19,16 @@ function ProductCard({ data }) {
     dispatch(addToCart(data))
   }
 
+
+
   return (
     <>
-      <div className="flex flex-col justify-center items-center my-5 w-[240px] h-[50%]">
+      <div className="flex flex-col justify-center items-center my-5 w-[240px] h-[50%] relative">
         <div className="mb-8">
           <img src={data.img} alt="img" className="h-[170px]" />
         </div>
+        <div className= "absolute rounded-tl-full rounded-tr-[50%] rounded-bl-full rounded-br-full font-semibold bg-[#f61571] text-white px-4 py-2 top-[-20px] left-[150px] text-[15px] "> {data.discount} Off </div>
+      
         <div>
           <div className=" h-[82px] mb-4">
             <div className="font-medium py-1 px-4">
@@ -45,6 +49,7 @@ function ProductCard({ data }) {
           </div>
         </div>
       </div>
+      
     </>
   );
 }
