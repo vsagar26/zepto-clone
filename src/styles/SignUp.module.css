@@ -30,8 +30,8 @@ h1 {
     outline: none;
 }
 
-button[type=submit] {
-    background-color: #4CAF50;
+.signupbtn[type=submit] {
+    background-color: #ff3269;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -40,11 +40,40 @@ button[type=submit] {
     width: 100%;
 }
 
-button[type=submit]:hover {
-    background-color: #45a049;
+.signupbtn[type=submit]:hover {
+    background-color: #fd6e94;
 }
 
 label {
     font-size: 18px;
     font-weight: bold;
+}
+
+.signupBox{
+    /* border: 1px solid black; */
+    padding: 20px 20px 20px 0px;
+}
+.signupBox>p{
+    font-weight: 700;
+}
+.signupBox>p>a:hover{
+    color: #fd6e94;
+}
+
+.signGoogle{
+    background-color: #edf2f7;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.signGoogle:hover{
+    background-color: #f2f5f8;
 }

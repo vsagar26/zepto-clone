@@ -1,6 +1,11 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../Redux/Cart/cart.actions";
 
 function ProductCard({ data }) {
+
+  const dispatch = useDispatch();
+  
   
   const truncatedstring = (str, num) => {
     if (str?.length > num) {
@@ -9,6 +14,10 @@ function ProductCard({ data }) {
       return str;
     }
   };
+
+  const handleAddToCart = () => {
+    dispatch(addToCart(data))
+  }
 
   return (
     <>
@@ -30,7 +39,7 @@ function ProductCard({ data }) {
               <div className="line-through">{data.price2}</div>
               <div>{data.price}</div>
             </div>
-            <button className="border-2 border-[#FF3269] px-7 rounded-md shadow-xl text-[#FF3269] font-medium">
+            <button onClick={handleAddToCart} className="border-2 border-[#FF3269] px-7 rounded-md shadow-xl text-[#FF3269] font-medium">
               Add
             </button>
           </div>

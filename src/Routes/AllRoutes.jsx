@@ -7,6 +7,7 @@ import Home from '../Pages/Home';
 import Login from '../Pages/Login';
 import SignUp from '../Pages/SignUp';
 import SingleProduct from '../Pages/SingleProduct';
+import UserAccount from '../Pages/UserAccount';
 
 
 function AllRoutes() {
@@ -14,7 +15,7 @@ function AllRoutes() {
     <>
         <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/allproducts' element={<AllProducts/>} />
+            <Route path='/allproducts/:products' element={<AllProducts/>} />
             <Route path='/signup' element={<SignUp/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/cart' element={
@@ -22,8 +23,13 @@ function AllRoutes() {
               <Cart/>
               </PrivateRoute>
               } />
-            <Route path='/singleProduct/:id' element={
+            <Route path='/allproducts/:products/:id' element={
               <SingleProduct/>
+            } />
+            <Route path='/account/' element={
+              <PrivateRoute>
+              <UserAccount/>
+              </PrivateRoute>
             } />
         </Routes>
     </>
