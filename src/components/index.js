@@ -6,5 +6,6 @@ import Footer from "./Footer";
 import ExploreByCategories from "./ExploreByCategories";
 import ExploreNewCategories from "./ExploreNewCategories";
 import HowItWorks from "./HowItWorks";
+import Order from "./Order";
 
-export {Navbar, Hero, HeroPageBanner, Carousal, Footer, ExploreByCategories, ExploreNewCategories, HowItWorks}
+export {Navbar, Hero, HeroPageBanner, Carousal, Footer, ExploreByCategories, ExploreNewCategories, HowItWorks, Order}
