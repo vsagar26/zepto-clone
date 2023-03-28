@@ -3,8 +3,16 @@ import { logo } from '../assets'
 import {BsBag, BsSearch} from "react-icons/bs"
 import {BiUser} from "react-icons/bi"
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 
 const Navbar = () => {
+  
+  const userData = useSelector((store) => {
+    return store.userAuthReducer.user;
+  });
+
+  const id = userData?.uid;
+  
   return (
     <>
     <div className='bg-[#450072] flex flex-row h-[80px] w-[100%] items-center justify-around md:justify-evenly'>
@@ -17,7 +25,11 @@ const Navbar = () => {
             <input type="text" className='hidden md:flex md:w-[400px] lg:w-[800px] h-[42px] rounded-lg px-8' placeholder='Search for over 5000+ products'/>
         </div>
         <BsSearch className='hidden sm:flex md:hidden text-white text-[20px]'/>
-        <a href="#" className='text-white font-semibold hidden sm:flex'>Login</a>
+        {
+          !id ? <Link to='/login' className='text-white font-semibold hidden sm:flex'>Login</Link>
+          :
+          <Link to='/account' className='text-white font-semibold hidden sm:flex' >My Account</Link>
+        }
         <Link to='/cart' >
         <button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
             <BsBag className='text-[24px] mr-3'/>My Cart

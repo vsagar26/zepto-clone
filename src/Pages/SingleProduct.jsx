@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
+import { useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
+import { addToCart } from '../Redux/Cart/cart.actions';
 import styles from '../styles/SingleProduct.module.css'
 
 function SingleProduct() {
 
-    const {id} = useParams()
+    const {id , products} = useParams()
+    const dispatch = useDispatch();
     const [data, setData] = useState({});
 
     const category = localStorage.getItem("category");
@@ -14,17 +17,22 @@ function SingleProduct() {
     }, []);
     
     const getData = async() => {
-        return fetch(`https://zeptojson.onrender.com/${category}/${id}`)
+        return fetch(`https://zeptojson.onrender.com/${products}/${id}`)
         .then((res) => res.json())
-        .then((res) => {     
+        .then((res) => {  
+               
             setData(res)
         })
         .catch(err =>console.log(err)
         )
     }
 
+    const handleAddToCart = () => {
+        dispatch(addToCart({...data}))
+    }
+
     
-    console.log(data)
+    // console.log(data)
     
 
 
@@ -64,7 +72,7 @@ function SingleProduct() {
                         <div className={styles.discount} >{"14% Off"}</div>
                     </div>
                     <div className={styles.addBtn} >
-                        <button>Add</button>
+                        <button onClick={handleAddToCart} >Add</button>
                     </div>
                 </div>
                 <div className={styles.howWorks} ></div>

@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import ProductCard from './ProductCard'
 
 function ProductDetails({data}) {
-
+  
+  // console.log(data,"product")
   return (
     <div className='flex flex-row flex-wrap pb-20'>
         {
-            data.map((el,id) => 
+            data?.map((el,id) => 
             <>
-              <Link to={`/singleProduct/${id}`} >
+              <Link to={`${id}`} key={id} >
                 <div className='border-[1px] border-[#b9b9b971]'  >
                   <ProductCard key={id} data={el} />
                 </div>
