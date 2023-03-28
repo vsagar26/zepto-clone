@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="mt-4 md:mt-8 mb-6 w-[100%]">
           <ul className="flex flex-col flex-wrap h-[300px] md:h-[200px] w-[200px] md:w-full gap-x-5 md:gap-x-0 text-[12px] md:text-[14px] text-[#575757]">
             {category.map((item, id) => (
-              <li
+              <li key ={id}
                 className="my-2 cursor-pointer"
                 onClick={() => window.open(item.link)}
               >
