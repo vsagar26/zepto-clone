@@ -32,7 +32,7 @@ function AllProducts() {
 
   // console.log(prod,"sagar");
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row w-auto">
       {
         isLoading ? <div>Loading</div>
         :
