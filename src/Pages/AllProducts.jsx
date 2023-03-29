@@ -83,6 +83,7 @@ function AllProducts() {
           <AllCategories />
           <Filter />
         </div>
+        <div>{products} ({totalCount})</div>
         <ProductDetails data={prod} />
         </>
       }
