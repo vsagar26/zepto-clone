@@ -84,26 +84,12 @@ function AllProducts() {
               <div>
                 <ProductDetails data={prod} />
               </div>
-              <div className="ml-[-100px]">
-                {[...Array(Math.ceil(totalCount / 15)).keys()].map((item) => {
-                  return (
-                    <button
-                      key={item + 1}
-                      onClick={() => {
-                        setPage(item + 1);
-                      }}
-                    className="bg-white border-2 border-[#F61571] hover:bg-[#F61571] px-3 py-2  hover:text-white rounded-lg ml-1 text-[#F61571]">
-                      {item + 1}
-                    </button>
-                  );
-                })}
-              </div>
               <div></div>
             </div>
           </div>
         )}
       </div>
-      {/* <div>
+      <div className="flex justify-center items-center">
         <div>
           {[...Array(Math.ceil(totalCount / 15)).keys()].map((item) => {
             return (
@@ -112,13 +98,14 @@ function AllProducts() {
                 onClick={() => {
                   setPage(item + 1);
                 }}
+                className="bg-white border-2 border-[#F61571] hover:bg-[#F61571] px-3 py-2  hover:text-white rounded-lg ml-1 text-[#F61571]"
               >
                 {item + 1}
               </button>
             );
           })}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
