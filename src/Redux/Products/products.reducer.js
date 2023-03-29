@@ -2,7 +2,8 @@ import * as types from './products.types';
 const initialState = {
     products:[],
     isLoading:false,
-    isError:false
+    isError:false,
+    totalCount:0
 };
 
 const reducer = (state=initialState,action) => {
@@ -17,7 +18,8 @@ const reducer = (state=initialState,action) => {
             return {
                 ...state,
                 isLoading:false,
-                products:payload.data
+                products:payload.data,
+                totalCount:payload.totalCount
             }
         default:
             return state;

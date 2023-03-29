@@ -11,10 +11,10 @@ const productSuccess = (payload) => {
     return {type:types.PRODUCT_SUCCESS,payload}
 };
 
-const getProducts = (category) => async(dispatch) => {
+const getProducts = (category,params) => async(dispatch) => {
     dispatch(productRequest());
     try {
-        let res = await getProductAPI(category);
+        let res = await getProductAPI(category,params);
         dispatch(productSuccess(res));
     } catch (error) {
         dispatch(productError());
