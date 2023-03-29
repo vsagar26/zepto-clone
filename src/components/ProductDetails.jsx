@@ -6,7 +6,10 @@ function ProductDetails({data}) {
   
   // console.log(data,"product")
   return (
+    <>
+    
     <div className='flex flex-row flex-wrap pb-20 w-auto'>
+    
         {
             data?.map((el,id) => 
             <>
@@ -20,6 +23,8 @@ function ProductDetails({data}) {
             )
         }
     </div>
+    </>
+    
   )
 }
 
