@@ -40,8 +40,8 @@ function ProductCard({ data }) {
           </div>
           <div className="flex flex-row justify-around gap-8 mt-6 px-4 ">
             <div className="flex flex-col">
-              <div className="line-through">{data.price2}</div>
-              <div className="font-medium" >{data.price}</div>
+              <div className="line-through">₹{data.price2}</div>
+              <div className="font-medium" >₹{data.price}</div>
             </div>
             <button onClick={handleAddToCart} className="border-2 border-[#FF3269] px-7 rounded-md shadow-xl text-[#FF3269] font-medium">
               Add
