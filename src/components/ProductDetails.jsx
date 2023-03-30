@@ -14,10 +14,11 @@ function ProductDetails({data}) {
             data?.map((el,id) => 
             <>
               <Link to={`${id}`} key={id} >
-                <div className='border-[1px] border-[#b9b9b971]'  >
+                <div className='border-[1px] border-[#b9b9b971] relative'  >
                   <ProductCard key={id} data={el} />
                 </div>
               </Link>
+              
             </>
                 
             )
