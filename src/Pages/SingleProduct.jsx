@@ -58,7 +58,7 @@ function SingleProduct() {
             <div className={styles.rightDiv}>
                 <div className={styles.details} >
                     <div className={styles.section} >
-                        <p>Home {">"} {category} {">"} {data.title}</p>
+                        <p>Home {">"} {products} {">"} {data.title}</p>
                     </div>
                     <div className={styles.title} >
                         <p>{data.title}</p>

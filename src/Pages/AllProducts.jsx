@@ -6,6 +6,8 @@ import { getProducts } from "../Redux/Products/products.actions";
 import { useParams, useSearchParams } from "react-router-dom";
 import axios from "axios";
 import Filter from "../components/Filter";
+import ProductLoading from "../components/LoadingComponent/ProductLoading";
+import CategoryLoading from "../components/LoadingComponent/CategoryLoading";
 
 function AllProducts() {
   const dispatch = useDispatch();
@@ -61,9 +63,19 @@ function AllProducts() {
   return (
     <div className="">
       <div className="flex flex-row w-auto">
-        {isLoading ? (
-          <div>Loading..</div>
-        ) : (
+        {isLoading ? 
+          <>
+          <CategoryLoading/>
+          <div className='flex flex-row flex-wrap pb-20 w-auto mt-[90px]' >
+            {[...Array(15).keys()].map((item) => {
+              return (
+                <ProductLoading/>
+              );
+            })}
+            </div>
+          </>
+          
+         : 
           <div className="flex flex-row ">
             <div>
               <AllCategories />
@@ -101,7 +113,7 @@ function AllProducts() {
               <div></div>
             </div>
           </div>
-        )}
+        }
       </div>
       {/* <div>
         <div>

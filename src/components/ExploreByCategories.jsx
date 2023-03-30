@@ -1,5 +1,6 @@
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import {
   ebgrocery,
   ebcfruitsandvege,
@@ -33,13 +34,13 @@ const ExploreByCategories = () => {
           <h2 className="text-md sm:text-xl font-semibold">
             Explore By Categories
           </h2>
-          <a
-            href="/"
+          <Link
+            to="/allproducts/Fruits"
             className="flex flex-row justify-center items-center gap-2 font-semibold text-[#FF3269]"
           >
             See All
             <BsChevronRight />
-          </a>
+          </Link>
         </div>
         <div className="flex-wrap md:flex flex-row gap-x-4 box-border justify-center items-center ml-10 md:ml-0">
           <div className="flex flex-row gap-x-4">
