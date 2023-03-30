@@ -2,11 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
+
+/* ------------------- */
+/* Loading Component */
+
+.maincard {
+  width: 220px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px;
+}
+.card__content {
+  padding: 20px;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.card__image,
+.skelaton_heading,
+.skelaton_para {
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1s shine linear infinite;
+  margin-top: 10px;
+}
+.card__image {
+  height: 240px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.card__content {
+  padding: 20px;
+}
+.skelaton_heading {
+  height: 50px;
+}
+.skelaton_para {
+  height: 40px;
+  width: 40%;
+  margin-top: 20px;
+}
+
+/* Category Skelaton CSS */
+
+.maincard_category {
+    margin-top: 100px;
+    padding-left: 50px;
+    width: 250px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+
+  .card__image_cat, .card__image_cat2{
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1s shine linear infinite;
+  margin-top: 10px;
+}
+
+  .card__image_cat {
+    height: 420px;
+  }
+
+  .card__image_cat2{
+    height: 340px;
+    margin-top: 20px;
+  }
+
