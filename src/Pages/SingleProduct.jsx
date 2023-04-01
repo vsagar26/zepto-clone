@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../Redux/Cart/cart.actions';
 import styles from '../styles/SingleProduct.module.css';
@@ -14,6 +14,10 @@ function SingleProduct() {
     const {id , products} = useParams()
     const dispatch = useDispatch();
     const [data, setData] = useState({});
+
+    const cartItem = useSelector((store) => {
+        return store.cartReducer.cart;
+    })
 
 
     useEffect(() => {
@@ -77,7 +81,9 @@ function SingleProduct() {
                         <div className={styles.discount} >{data.discount} Off</div>
                     </div>
                     <div className={styles.addBtn} >
-                        <button onClick={handleAddToCart} >Add</button>
+                        <button isDisabled={
+                            cartItem.find((item) => item.id == data.id)}
+                            onClick={handleAddToCart} >Add</button>
                     </div>
                 </div>
                 <div className={styles.howWorks} >

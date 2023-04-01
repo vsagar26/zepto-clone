@@ -4,6 +4,7 @@ import { removeFromCart } from "../Redux/Cart/cart.actions";
 import { MdDelete } from "react-icons/md";
 import { GiTwoCoins } from "react-icons/gi";
 import {TfiLocationPin} from "react-icons/tfi"
+import Empty from "../components/Empty";
 
 function Cart() {
   const dispatch = useDispatch();
@@ -33,11 +34,14 @@ function Cart() {
   const finalAmount = offerValue;
   offerValue = value - offerValue;
 
-  console.log(cartItem, "cart");
+  console.log(cartItem.length, "cart");
   return (
-    <div className="flex flex-col bg-[#F5F1F7] h-[100vh]">
+    <>
+    {
+      cartItem.length == 0 ? <Empty/> :
+      <div className="flex flex-col bg-[#F5F1F7] h-[100vh]">
       <div className="flex pl-[13%] pt-8 pb-5">
-        <h2 className="text-[24px] font-semibold ">Cart</h2>
+        <h2 className="text-[24px] font-semibold ">Cart ({cartItem.length + " " + "Item"})</h2>
       </div>
       <div className="flex flex-row justify-center items-center gap-x-4">
         <div className="">
@@ -53,7 +57,7 @@ function Cart() {
                     <div className="flex flex-row gap-x-2">
                       <div className="font-semibold">₹{el.price}</div>
                       <div className="font-medium line-through">
-                      ₹{el.price2}
+                        ₹{el.price2}
                       </div>
                     </div>
                   </div>
@@ -134,6 +138,8 @@ function Cart() {
         </div>
       </div>
     </div>
+    }
+    </>
   );
 }
 
