@@ -78,3 +78,11 @@ label {
 .signGoogle:hover{
     background-color: #f2f5f8;
 }
+.error {
+    color: red;
+    /* background-color: lightsalmon; */
+    margin: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    /* border: 1px solid black; */
+}

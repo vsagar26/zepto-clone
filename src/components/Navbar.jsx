@@ -10,6 +10,12 @@ const Navbar = () => {
     return store.userAuthReducer.user;
   });
 
+  const cartItem = useSelector((store) => {
+    return store.cartReducer.cart;
+  });
+
+  console.log(cartItem,"dd");
+
   const id = userData?.uid;
 
   return (
@@ -35,32 +41,16 @@ const Navbar = () => {
             placeholder="Search for over 5000+ products"
           />
         </div>
-        <BsSearch className="hidden sm:flex md:hidden text-white text-[20px]" />
-        {!id ? (
-          <Link to="/login" className="text-white font-semibold hidden sm:flex">
-            Login
-          </Link>
-        ) : (
-          <Link
-            to="/account"
-            className="text-white font-semibold hidden sm:flex"
-          >
-            My Account
-          </Link>
-        )}
-        <Link to="/cart">
-          <div></div>
-          <button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
+        <BsSearch className='hidden sm:flex md:hidden text-white text-[20px]'/>
+        {
+          !id ? <Link to='/login' className='text-white font-semibold hidden sm:flex'>Login</Link>
+          :
+          <Link to='/account' className='text-white font-semibold hidden sm:flex' >My Account</Link>
+        }
+        <Link to='/cart' >
+        <button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
             <BsBag className='text-[24px] mr-3'/>My Cart
         </button>
-          {/* <button className="hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center">
-            <BsBag className="text-[19px] mr-3 " />
-            <div className="h-[30px] w-[2px] bg-[#ffffff] mr-3"></div>
-            <div className="md:flex hidden  flex-col gap-y-[1px]">
-              <div className="font-medium">1 Items</div>
-              <div></div>787
-            </div>
-          </button> */}
         </Link>
 
         <BiUser className="flex sm:hidden text-white text-[20px] font-semibold cursor-pointer" />

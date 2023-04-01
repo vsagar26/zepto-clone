@@ -5,7 +5,10 @@ import { signInWithEmailAndPassword , GoogleAuthProvider , signInWithPopup } fro
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { userLogin } from '../Redux/UserAuth/userAuth.actions';
-import {FcGoogle} from "react-icons/fc"
+import {FcGoogle} from "react-icons/fc";
+import "react-toastify/dist/ReactToastify.css";
+	
+import { toast } from "react-toastify";
 
 function Login() {
     const [email,setEmail] = useState('');
@@ -53,11 +56,12 @@ function Login() {
                 // console.log(res)
                 dispatch(userLogin(res.user));
                 localStorage.setItem("userInfoF",JSON.stringify(res.user));
-                alert("SignIn Successfully Done!!");
+                toast.success("Login")
                 setLoading(false);
                 navigate('/')
             } catch (error) {
                 setLoading(false)
+                toast.warn("SignIn Failed!",error.message)
                 console.log(error.message);
                 setError(error);
             }
@@ -83,7 +87,7 @@ function Login() {
             :
             <form onSubmit={signin} >
             <h1>Login</h1>
-            <label for="email">Email</label>
+            
             <input className={styles.Input}
                 type="email"
                 placeholder="Enter your email"
@@ -92,7 +96,7 @@ function Login() {
                 onChange={(e) => setEmail(e.target.value)}
             required />
 
-            <label for="password">Password</label>
+            
             <input className={styles.Input} 
                 type="password" 
                 placeholder="Enter your password" 
@@ -100,6 +104,13 @@ function Login() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)} 
             required />
+
+            {error && (
+                <div className={styles.error}>
+                  {"* "}
+                  {error}
+                </div>
+              )}
 
             <div className={styles.signupBox} >
                 <p>New User? <Link to='/signup' >SignUp</Link> </p>
@@ -115,6 +126,7 @@ function Login() {
             <FcGoogle className='text-[21px]'/></button>
         </form>
         }
+        
     </div>
   )
 }

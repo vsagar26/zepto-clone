@@ -1,6 +1,5 @@
-import React from 'react'
-import { ExploreByCategories, Hero, ExploreNewCategories, HowItWorks } from '../components'
-import Loading from '../components/LoadingComponent/ProductLoading'
+import React from 'react';
+import { ExploreByCategories, Hero, ExploreNewCategories, HowItWorks } from '../components';
 
 
 function Home() {
@@ -11,7 +10,6 @@ function Home() {
         <ExploreByCategories/>
         <ExploreNewCategories/>
         <HowItWorks/>
-        <Loading/>
     </>
   )
 }
