@@ -82,7 +82,7 @@ function AllProducts() {
               <Filter />
             </div>
             <div className="pt-5 flex flex-col justify-center items-center">
-              <div className="flex flex-row gap-x-[890px]">
+              <div className="flex flex-row justify-between w-[100%] pr-[50px]">
                 <div className="text-2xl font-semibold pb-[20px] ml-6">
                   {products} ({totalCount})
                 </div>
