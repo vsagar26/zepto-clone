@@ -5,14 +5,14 @@
     margin-left: 0;
 }
 .box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     display: flex;
 }
 .leftDiv{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     padding-left: 120px;
@@ -21,7 +21,8 @@
 }
 .rightDiv{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding-left: 20px;
 }
 .sliderBox{
     border: 1px solid #ebeaec;
@@ -31,11 +32,12 @@
     height: 60%;
     padding: 90px;
     border-radius: 5px;
+    height: 50%;
 }
+
 
 .sliderBox>div>img{
     width: 70%;
-    border: 1px solid black;
 }
 .aboutProduct{
     font-size: 18px;
@@ -60,26 +62,28 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     width: 82%;
     height: 45%;
+    
 }
 .section>p{
     cursor: pointer;
+    font-size: 13px;
 }
 .title{
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
 }
 .weight{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     color: rgba(43, 30, 53, 0.7);
 }
 .prices{
     display: flex;
     gap: 10px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     align-items: center;
     padding: 18px 18px 18px 0px;
 }
@@ -93,12 +97,14 @@
     color: rgba(43, 30, 53, 0.7);
 }
 .discount{
-    border: 1px solid black;
-    padding: 5px 12px 5px 12px;
-    font-size: 15px;
-    background-color: #450072;
+    /* border: 1px solid black; */
+    padding: 5px 14px 5px 14px;
+    font-size: 13px;
+    background-image: linear-gradient(#6f059f, #a301ef);
     color: white;
     border-radius: 8px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    font-weight: 700;
 }
 .addBtn{
     /* border: 1px solid black; */
@@ -113,4 +119,35 @@
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.howWorks{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px 20px 0px;
+}
+.howPTag{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.howWorks>div{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.workBorder{
+    border: 1px solid #ebeaec;
+    border-radius: 5px;
+}
+.p1{
+    font-size: 18px;
+    font-stretch: expanded;
+}
+.p2{
+    font-size: 18px;
+    font-stretch: expanded;
+    color: #bebcbf;
 }

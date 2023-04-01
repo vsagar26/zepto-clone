@@ -24,6 +24,15 @@ function Cart() {
     }
   };
 
+  let value = 0;
+  let offerValue = 0;
+  cartItem.map((el) => {
+    offerValue += Number(el.price);
+    return (value=value+Number(el.price2))
+  })
+  const finalAmount = offerValue;
+  offerValue = value - offerValue;
+
   console.log(cartItem, "cart");
   return (
     <div className="flex flex-col bg-[#F5F1F7] h-[100vh]">
@@ -42,9 +51,9 @@ function Cart() {
                   <div className="ml-5 flex flex-col font-medium gap-y-2">
                     <div>{truncatedstring(el.title, 40)}</div>
                     <div className="flex flex-row gap-x-2">
-                      <div className="font-semibold">{el.price}</div>
+                      <div className="font-semibold">₹{el.price}</div>
                       <div className="font-medium line-through">
-                        {el.price2}
+                      ₹{el.price2}
                       </div>
                     </div>
                   </div>
@@ -69,19 +78,19 @@ function Cart() {
             <div className="flex flex-row gap-x-4 pt-3 ">
               <button className="flex flex-row justify-center items-center gap-x-1 px-3 border-2 rounded-xl border-[#f61571]">
                 <GiTwoCoins className="text-[#ffbf3f]" />
-                <span className="text-[#f61571]">Rs 10</span>
+                <span className="text-[#f61571]">₹ 10</span>
               </button>
               <button className="flex flex-row justify-center items-center gap-x-1 px-3 border-2 rounded-xl border-[#f61571]">
                 <GiTwoCoins className="text-[#ffbf3f]" />
-                <span className="text-[#f61571]">Rs 20</span>
+                <span className="text-[#f61571]">₹ 20</span>
               </button>
               <button className="flex flex-row justify-center items-center gap-x-1 px-3 border-2 rounded-xl border-[#f61571]">
                 <GiTwoCoins className="text-[#ffbf3f]" />
-                <span className="text-[#f61571]">Rs 35</span>
+                <span className="text-[#f61571]">₹ 35</span>
               </button>
               <button className="flex flex-row justify-center items-center gap-x-1 px-3 border-2 rounded-xl border-[#f61571]">
                 <GiTwoCoins className="text-[#ffbf3f]" />
-                <span className="text-[#f61571]">Rs 50</span>
+                <span className="text-[#f61571]">₹ 50</span>
               </button>
             </div>
           </div>
@@ -103,17 +112,17 @@ function Cart() {
           <div className="flex flex-col">
             <div className="border-[1px] border-[#dbdbdb65] shadow-xl w-auto rounded-lg px-4 py-6 flex flex-row mb-3 justify-between bg-[#FFFFFF] ">
               <div className="flex flex-col px-4 ">
-                <p className="pt-2">Items Total</p>
-                <p className="pt-2">Handling Charge</p>
+                <p className="pt-2">Total MRP</p>
+                <p className="pt-2">Discount on MRP</p>
                 <p className="pt-2 pb-2 border-b-2">Delivery Fee</p>
                 {/* <div className="h-[1px] bg-[#7a7a7a] mt-2 w-[200px]"></div> */}
-                <p className="pt-2">To Pay</p>
+                <p className="pt-2">Total Amount</p>
               </div>
               <div className="flex flex-col px-4 text-[#7a7a7a]">
-                <p className="pt-2">495</p>
-                <p className="pt-2">rate</p>
+                <p className="pt-2">₹{value}</p>
+                <p className="pt-2">₹{offerValue}</p>
                 <p className="pt-2 pb-2 border-b-2">rate</p>
-                <p className="pt-2 text-black">Rate</p>
+                <p className="pt-2 text-black">₹{finalAmount}</p>
               </div>
             </div>
 

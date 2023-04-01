@@ -1,6 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../Redux/Cart/cart.actions";
+import "react-toastify/dist/ReactToastify.css";
+	
+import { toast } from "react-toastify";
 
 function ProductCard({ data }) {
 
@@ -16,6 +19,7 @@ function ProductCard({ data }) {
   };
 
   const handleAddToCart = () => {
+    toast.info("Add to Cart!")
     dispatch(addToCart(data))
   }
 
