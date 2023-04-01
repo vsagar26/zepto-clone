@@ -14,7 +14,17 @@ const Navbar = () => {
     return store.cartReducer.cart;
   });
 
-  console.log(cartItem,"dd");
+  let value = 0;
+  let offerValue = 0;
+  cartItem.map((el) => {
+    offerValue += Number(el.price);
+    return (value = value+Number(el.price2))
+  })
+  const finalAmount = offerValue;
+  offerValue = value - offerValue;
+  
+
+  // console.log(cartItem,"dd");
 
   const id = userData?.uid;
 
@@ -48,9 +58,19 @@ const Navbar = () => {
           <Link to='/account' className='text-white font-semibold hidden sm:flex' >My Account</Link>
         }
         <Link to='/cart' >
-        <button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
-            <BsBag className='text-[24px] mr-3'/>My Cart
-        </button>
+        {
+          cartItem.length==0?<button className='hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center'>
+          <BsBag className='text-[24px] mr-3'/>My Cart
+          </button>:
+          <button className="hidden sm:flex bg-[#FF3269] text-white text-[13px] md:text-[16px] font-semibold px-4 md:px-9  rounded-lg lg:flex mr-10 h-[60px] items-center justify-center">
+            <BsBag className="text-[19px] mr-3 " />
+            <div className="h-[30px] w-[2px] bg-[#ffffff] mr-3"></div>
+            <div className="md:flex hidden  flex-col gap-y-[1px]">
+              <div className="font-medium">{cartItem.length} Items</div>
+              <div></div>₹{finalAmount}
+            </div>
+          </button>
+        }
         </Link>
 
         <BiUser className="flex sm:hidden text-white text-[20px] font-semibold cursor-pointer" />
