@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../Redux/Cart/cart.actions';
-import styles from '../styles/SingleProduct.module.css'
+import styles from '../styles/SingleProduct.module.css';
+import "react-toastify/dist/ReactToastify.css";
+	
+import { toast } from "react-toastify";
 
 function SingleProduct() {
 
@@ -10,7 +13,6 @@ function SingleProduct() {
     const dispatch = useDispatch();
     const [data, setData] = useState({});
 
-    const category = localStorage.getItem("category");
 
     useEffect(() => {
         getData();
@@ -28,6 +30,7 @@ function SingleProduct() {
     }
 
     const handleAddToCart = () => {
+        toast.info("Add to Cart!")
         dispatch(addToCart({...data}))
     }
 

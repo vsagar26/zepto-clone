@@ -5,7 +5,10 @@ import styles from '../styles/SignUp.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { userLogin } from '../Redux/UserAuth/userAuth.actions'
-import {FcGoogle} from "react-icons/fc"
+import {FcGoogle} from "react-icons/fc";
+import "react-toastify/dist/ReactToastify.css";
+	
+import { toast } from "react-toastify";
 
 
 function SignUp() {
@@ -47,15 +50,18 @@ function SignUp() {
             console.log(res)
             dispatch(userLogin(res.user));
             localStorage.setItem("userInfoF",JSON.stringify(res.user));
-            alert("SignUp Successfully Done!!")
+            toast.success("Signup Successfully Done!")
             setLoading(false);
             navigate('/login');
         } catch (error) {
             setLoading(false);
+            toast.warn("Signup Failed!",error.message)
             console.log(error);
             setError(error)
         }
     }
+
+   
 
     const handleGoogle = async() => {
         try {
@@ -78,7 +84,7 @@ function SignUp() {
             <form onSubmit={signUp} >
             <h1>Sign Up</h1> 
 
-            <label for="email">Email</label>
+            
             <input className={styles.Input} 
             type="email" 
             placeholder="Enter your email" 
@@ -87,7 +93,7 @@ function SignUp() {
             onChange={(e) => setEmail(e.target.value)} 
             required />
 
-            <label for="password">Password</label>
+            
             <input className={styles.Input} 
             type="password" 
             placeholder="Enter your password" 
@@ -95,6 +101,13 @@ function SignUp() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required />
+
+            {error && (
+                <div className={styles.error}>
+                  {"* "}
+                  {error}
+                </div>
+              )}
 
             <div className={styles.signupBox} >
                 <p>Already a User? <Link to='/login' >Login</Link> </p>
@@ -111,6 +124,7 @@ function SignUp() {
             </button>
         </form>
         }
+        
     </div>
   )
 }
