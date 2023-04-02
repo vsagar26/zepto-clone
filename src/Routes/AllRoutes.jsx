@@ -8,6 +8,7 @@ import Login from '../Pages/Login';
 import SignUp from '../Pages/SignUp';
 import SingleProduct from '../Pages/SingleProduct';
 import UserAccount from '../Pages/UserAccount';
+import Payment from '../Pages/Payment';
 
 
 function AllRoutes() {
@@ -20,7 +21,7 @@ function AllRoutes() {
             <Route path='/login' element={<Login/>} />
             <Route path='/cart' element={
               <PrivateRoute>
-              <Cart/>
+                <Cart/>
               </PrivateRoute>
               } />
             <Route path='/allproducts/:products/:id' element={
@@ -28,9 +29,10 @@ function AllRoutes() {
             } />
             <Route path='/account/' element={
               <PrivateRoute>
-              <UserAccount/>
+                <UserAccount/>
               </PrivateRoute>
             } />
+            <Route path='/payment' element={<Payment/>} />
         </Routes>
     </>
     
