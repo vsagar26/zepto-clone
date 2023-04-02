@@ -17,6 +17,8 @@ function UserAccount() {
         localStorage.setItem("userInfoF",null);
         dispatch(userLogout());
         dispatch(addToCart([]));
+        localStorage.removeItem("address");
+        window.location.reload()
       }
 
     const userData = useSelector((store) => {

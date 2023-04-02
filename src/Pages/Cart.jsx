@@ -1,13 +1,31 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "../Redux/Cart/cart.actions";
+import styles from '../styles/Cart.module.css'
 import { MdDelete } from "react-icons/md";
 import { GiTwoCoins } from "react-icons/gi";
 import {TfiLocationPin} from "react-icons/tfi"
 import Empty from "../components/Empty";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
+
+const arr = JSON.parse(localStorage.getItem("address")) || [];
 
 function Cart() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const [userAddress,setUserAddress] = useState(
+    JSON.parse(localStorage.getItem("address")) || {
+      name:"",
+      address:"",
+      city:"",
+      mob:""
+    }
+  )
+
 
   const cartItem = useSelector((store) => {
     return store.cartReducer.cart;
@@ -35,6 +53,44 @@ function Cart() {
   offerValue = value - offerValue;
 
   console.log(cartItem.length, "cart");
+
+  function myBtn() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+  }
+  function closeSpan(){
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    var modal = document.getElementById("myModal");
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  const handleSubmit = () => {
+      localStorage.setItem("address",JSON.stringify(userAddress))
+      closeSpan()
+  }
+
+  const handleAddress = (e) => {
+    let x = e.target.name;
+    setUserAddress({...userAddress,[x]:e.target.value});
+  }
+
+  const handlePayment = () => {
+    const {name,address,city,mob} = userAddress;
+    if(name.length > 4 && mob.length>9 && address.length>4 && city.length>3)
+    {
+      navigate('/payment')
+    }
+    else
+    {
+      toast.warn("Check Your Details properly!")
+    }
+  }
+  console.log(arr,"vvvv")
   return (
     <>
     {
@@ -131,10 +187,38 @@ function Cart() {
             </div>
 
             <div className="border-[1px] border-[#dbdbdb65] shadow-xl w-auto rounded-lg px-4 py-8 flex flex-col mb-3 justify-center items-center bg-[#FFFFFF] ">
-              <div className="text-[16px] font-medium pb-4 flex flex-row justify-center items-center gap-x-2"><TfiLocationPin className="text-[30px] text-[#f61571]"/><p>Enter Your Address</p></div>
-              <button className="bg-[#f61571] px-12 py-3 rounded-lg text-white">Add Address to proceed</button>
+              {
+                arr.length == 0 ? <div className="text-[16px] font-medium pb-4 flex flex-row justify-center items-center gap-x-2"><TfiLocationPin className="text-[30px] text-[#f61571]"/><p>Enter Your Address</p></div>:
+                <div className={styles.afterAddress} >
+                  <div><span>Address</span>- "{userAddress.name},{userAddress.address},{userAddress.city},{userAddress.mob}"</div>
+                  <div><button onClick={myBtn} >CHANGE ADDRESS</button></div>
+                </div>
+              }
+              {
+                arr.length == 0 ? <button id="myBtn" className={styles.addressBtn} onClick={myBtn} >Add Address to proceed</button>
+                :
+                <button id="myBtn" className={styles.addressBtn} onClick={handlePayment} >Continue To Payment</button>
+              }
+              
             </div>
           </div>
+        </div>
+      </div>
+      <div id="myModal" className={styles.modal}>
+
+      
+        <div className={styles.modal_content}>
+          <p>Enter Your Current Address</p>
+          <span onClick={closeSpan} className={styles.close}>&times;</span>
+        </div>
+        <div className={styles.addressInputBox} >
+              <form onSubmit={handleSubmit} >
+                <input type="text" placeholder="Name" name="name" onChange={handleAddress} value={userAddress.name}  />
+                <input type="text" placeholder="Address" name="address" onChange={handleAddress} value={userAddress.address}  />
+                <input type="text" placeholder="City" name="city" onChange={handleAddress} value={userAddress.city} />
+                <input type="text" placeholder="Mobile No." name="mob" onChange={handleAddress} value={userAddress.mob} />
+                <input type="submit" id={styles.submitBtn} />
+              </form>
         </div>
       </div>
     </div>
