@@ -87,11 +87,12 @@ function AllProducts() {
                   {products} ({totalCount})
                 </div>
                 <div>
-                  <select onChange={handleSort} value={sort}>
-                    <option value="asc">Price: Low to High</option>
+                  <select className=" px-4 py-2" onChange={handleSort} value={sort}>
+                    <option className="hover:bg-blue-400"  value="asc">Price: Low to High</option>
                     <option value="desc">Price: High to Low</option>
                   </select>
                 </div>
+                
               </div>
               <div>
                 <ProductDetails data={prod} />

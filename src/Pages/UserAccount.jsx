@@ -8,8 +8,13 @@ import Addresses from '../components/Addresses';
 import { useDispatch, useSelector } from 'react-redux';
 import { userLogout } from '../Redux/UserAuth/userAuth.actions';
 import { addToCart } from '../Redux/Cart/cart.actions';
+const arr = JSON.parse(localStorage.getItem("orderItem")) || [];
 
 function UserAccount() {
+
+console.log(
+    arr
+)
 
     const dispatch = useDispatch();
 
@@ -18,6 +23,7 @@ function UserAccount() {
         dispatch(userLogout());
         dispatch(addToCart([]));
         localStorage.removeItem("address");
+        localStorage.removeItem("orderItem");
         window.location.reload()
       }
 
