@@ -61,11 +61,11 @@ const Footer = () => {
           <div>
             <p className="mb-2">Download App</p>
             <div className="flex flex-col gap-4 w-[400px] md:w-full ">
-              <button className="mb-2 mt-2 border-2 px-0 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4">
+              <button className="mb-2 mt-2 border-2 px-0 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4" onClick={()=>window.open("https://play.google.com/store/apps/details?id=com.zeptoconsumerapp&pli=1")}>
                 <BsGooglePlay className="text-[20px]" />
                 Get it on Playstore
               </button>
-              <button className="mb-2 border-2 px-4 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4">
+              <button className="mb-2 border-2 px-4 md:px-10 py-3 rounded-lg flex flex-row justify-center items-center gap-4" onClick={()=>window.open("https://apps.apple.com/in/app/zepto-grocery-delivery/id1575323645")}>
                 <AiFillApple className="text-[24px]" />
                 Get it on Apple Store
               </button>

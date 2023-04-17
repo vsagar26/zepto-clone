@@ -4,67 +4,67 @@ export const category = [
     {
         id: 1,
         title: "Fruits & Vegetables",
-        link: "https://www.facebook.com/"
+        link: "/allproducts/Fruits"
     },
     {
         id: 2,
         title: "Packaged Food",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 3,
         title: "Breakfast & Sauces",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 4,
         title: "Cleaning Essentials",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 5,
         title: "Homegrown Brands",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 6,
         title: "Atta, Rice, Oil & Dals",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 7,
         title: "Dairy, Bread & Eggs",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 8,
         title: "Tea, Coffee & More",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 9,
         title: "Home Needs",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 10,
         title: "Paan Corner",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 11,
         title: "Masala & Dry Fruits",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 12,
         title: "Cold Drinks & Juices",
-        link: ""
+        link: "/allproducts/Drinks"
     },
     {
         id: 13,
         title: "Biscuits",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 14,
@@ -74,42 +74,42 @@ export const category = [
     {
         id: 15,
         title: "Sweet Cravings",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 16,
         title: "Munchies",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 17,
         title: "Makeup & Beauty",
-        link: ""
+        link: "/allproducts/Makeup"
     },
     {
         id: 18,
         title: "Hygiene & Grooming",
-        link: ""
+        link: "/allproducts/Makeup"
     },
     {
         id: 19,
         title: "Frozen Food & Ice Creams",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 20,
         title: "Meats, Fish & Eggs",
-        link: ""
+        link: "/allproducts/Grocery"
     },
     {
         id: 21,
         title: "Bath & Body",
-        link: ""
+        link: "/allproducts/Baths"
     },
     {
         id: 22,
         title: "Health & Baby Care",
-        link: ""
+        link: "/allproducts/Makeup"
     },
 ]
 
@@ -185,6 +185,50 @@ export const explorenewcategory = [
         id:9,
         img: "https://cdn.zeptonow.com/production///tr:w-282,ar-282-354,pr-true,f-webp,q-80/inventory/banner/9a357434-6a7f-465e-9b6b-bc41bf302a96-NC_Org.png",
     },
+    
+]
+
+export const curatedforyou = [
+    {
+        id:1,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/7fa43e19-10ad-4bcf-ad12-88ce1a791dc1-Brand-Tiles_Food-Enhancers.png",
+    },
+
+    {
+        id:2,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/b64349f7-b640-4ad2-8fce-41881d9517cc-Brand-Tiles_Whole-Spices.png",
+    },
+
+    {
+        id:3,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/9bee5f04-3f14-47ab-a65e-4b63e400e711-Brand-Tiles_Home-decor.png",
+    },
+
+    {
+        id:4,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/c9c36a48-3530-411b-86da-531d08c1ebfc-Mango-&-Melons.png",
+    },
+
+    {
+        id:5,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/fe124007-5327-40eb-9fe0-f27addf03556-Brand-Tiles_(1).png",
+    },
+
+    {
+        id:6,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/2d0181d1-e354-4ad4-a37e-979a2cf2f9a3-Brand-Tiles_baby-care_(1).jpg",
+    },
+
+    {
+        id:7,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/db5cffc6-e9de-41b5-bbaf-444d65eda0f2-Period-Care_(2).png",
+    },
+
+    {
+        id:8,
+        img: "https://cdn.zeptonow.com/production///tr:w-160,ar-372-372,pr-true,f-webp,q-80/inventory/banner/88813e2d-3f53-4a76-bc5a-4be3cdb91c3e-Brand-Tiles_Gourmet-Selection.png",
+    },
+
     
 ]
 
